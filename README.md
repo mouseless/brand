@@ -12,10 +12,11 @@ dedicated to seek perfection in their work. We work slow but sure. And we see
 
 Inspired from this vision, we named our studio as __Mouseless__.
 
+Our intention is to make everyone in the team use their mouse less, and
+preferably become a mouseless developer.
+
 To state the obvious, by mouse we mean the pointing device that enables a human
-to control a pointer on the computer screen, not the animal. Our intention is
-to make everyone in the team use their mouse less, and preferably become a
-mouseless developer.
+to control a pointer on the computer screen, not the animal.
 
 ## Usage In Plain Text
 
