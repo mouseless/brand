@@ -28,9 +28,9 @@ Logo consists of three parts, gt symbol `>`, brand name `mouseless` or initial
 
 There are;
 
-- three forms: _mark_, _logo full_, _logo short_
+- three forms: _mark_, _full_, _short_
 - three colors for mark: _primary_, _black_ and _white_
-- four colors for logo: _primary_, _secondary_, _black_ and _white_
+- four colors for full and short: _primary_, _secondary_, _black_ and _white_
 
 As a result there are 11 combinations as shown below;
 
@@ -111,6 +111,39 @@ If existing exported files does not suit your need, you can use
 > pixels of height. On the other hand full logo may feel long, so you may use a
 > 5x5 mark form or a 17x5 short form.
 
+## Social media
+
+Profile pictures are exported including background so that it can fit better
+with social media channels. They come with two colors, primary and secondary,
+and three forms, mark, short and terminal.
+
+| color \ form  | mark      | short     | terminal  |
+| ---           | ---       | ---       | ---       |
+| __primary__   | ![lppm][] | ![lpps][] | ![lppt][] |
+| __secondary__ | ![lpsm][] | ![lpss][] | ![lpst][] |
+
+These exports are in [assets/logo/profile](./assets/logo/profile) folder with
+the following naming convention;
+
+```
+logo-profile-primary-short.png
+logo-profile-secondary-terminal-500px.png
+
+logo-profile-[color]-[form].svg
+logo-profile-[color]-[form]-[height].png
+```
+
+### How to Choose
+
+Unlike regular logo usage, prefer secondary color with black background over
+primary color because the terminal feel comes from a dark background.
+
+Depending on the platform, you may prefer mark form or short form. If target
+platform places brand name on the right side of profile picture, then it is
+better to use only mark form, e.g. Github. If profile picture is used stand
+alone, then you may consider using short form. Terminal form is there just for
+fun, use it if you feel it is suitable.
+
 ## Watermarks
 
 Use watermarks to protect and copyright photos and videos online. Watermarks
@@ -124,6 +157,22 @@ e.g. `logo-black-full-0.15.svg` is black full logo in 15% opacity.
 > on existing photos or videos. There are also no `.png` exports available,
 > because of the same reason.
 
+## Colors
+
+Primary brand color is ![](https://via.placeholder.com/20/F9465B/000000?text=+)
+`#F9465B` and we use black
+![](https://via.placeholder.com/20/000000/000000?text=+) `#000000` and white
+![](https://via.placeholder.com/20/FFFFFF/000000?text=+) `#FFFFFF` to create
+contrast.
+
+### Inspiration
+
+Mouseless is founded by [Cihan Deniz](https://github.com/cihandeniz) to create
+a place where elite developers can join and perform their craft with passion.
+Without being certain of what this studio may become in the future, Mouseless
+brand uses the same color as [GC
+Brains](https://github.com/gcbrains/brand#colors) to leave a mark in the brand
+hoping to remind its roots and core values to a future mouseless developer.
 
 [lpm]: ./assets/logo/png/s/logo-primary-mark-30px.png
 [lpf]: ./assets/logo/png/s/logo-primary-full-30px.png
@@ -136,3 +185,9 @@ e.g. `logo-black-full-0.15.svg` is black full logo in 15% opacity.
 [lwm]: ./assets/logo/png/s/logo-white-mark-30px.png
 [lwf]: ./assets/logo/png/s/logo-white-full-30px.png
 [lws]: ./assets/logo/png/s/logo-white-short-30px.png
+[lppm]: ./assets/logo/profile/logo-profile-primary-mark-30px.png
+[lpps]: ./assets/logo/profile/logo-profile-primary-short-30px.png
+[lppt]: ./assets/logo/profile/logo-profile-primary-terminal-30px.png
+[lpsm]: ./assets/logo/profile/logo-profile-secondary-mark-30px.png
+[lpss]: ./assets/logo/profile/logo-profile-secondary-short-30px.png
+[lpst]: ./assets/logo/profile/logo-profile-secondary-terminal-30px.png
