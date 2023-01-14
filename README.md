@@ -147,11 +147,17 @@ fun, use it if you feel it is suitable.
 ## Watermarks
 
 Use watermarks to protect and copyright photos and videos online. Watermarks
-are exported to [assets/logo/svg/watermark](./assets/logo/svg/watermark) in
-`15%`, `22.5%` and `30%` opacities using only black/white colors in all
-forms.
+are exported to [assets/logo/watermark](./assets/logo/watermark) in `15%`,
+`22.5%` and `30%` opacities using only black/white colors in all forms.
 
-e.g. `logo-black-full-0.15.svg` is black full logo in 15% opacity.
+Below is the naming convention for watermark logos;
+
+```
+logo-watermark-black-full-0.15.svg
+logo-watermark-black-short-0.225.svg
+
+logo-watermark-[color]-[form]-[opacity].svg
+```
 
 > ⚠️  Don't use watermarks directly in html, because they are meant to be used
 > on existing photos or videos. There are also no `.png` exports available,
