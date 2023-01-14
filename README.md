@@ -157,6 +157,20 @@ e.g. `logo-black-full-0.15.svg` is black full logo in 15% opacity.
 > on existing photos or videos. There are also no `.png` exports available,
 > because of the same reason.
 
+## Badges
+
+Right now, there are no apparent use cases for badges, but they are prepared
+anyway. _primary_ badge is more suitable for brand related badges, whereas
+_black_ and _white_ badges can be used as status badges etc.
+
+| Type      | Badge    |
+| ---       | ---      |
+| _primary_ | ![lbp][] |
+| _black_   | ![lbb][] |
+| _white_   | ![lbw][] |
+
+> ℹ️  _black mark_ and _white mark_ badges may have any color on left and right
+> side.
 ## Colors
 
 Primary brand color is ![](https://via.placeholder.com/20/F9465B/000000?text=+)
@@ -191,3 +205,7 @@ hoping to remind its roots and core values to a future mouseless developer.
 [lpsm]: ./assets/logo/profile/logo-profile-secondary-mark-30px.png
 [lpss]: ./assets/logo/profile/logo-profile-secondary-short-30px.png
 [lpst]: ./assets/logo/profile/logo-profile-secondary-terminal-30px.png
+
+[lbp]: ...
+[lbb]: ...
+[lbw]: ...
