@@ -23,8 +23,8 @@ document. Social media profile names should be lowercase as well.
 
 ## Logo Construction
 
-Logo consists of three parts, gt symbol `>`, brand name `mouseless` or initial
-`m` and an underscore `_`.
+Logo consists of three parts, greater than symbol `>`, brand name `mouseless`
+or initial `m` and an underscore `_`.
 
 There are;
 
@@ -36,10 +36,10 @@ As a result there are 11 combinations as shown below;
 
 | color \ form  | mark     | full     | short    |
 | ---           | ---      | ---      | ---      |
-| __primary__   | ![lpm][] | ![lpf][] | ![lps][] |
-| __secondary__ | N/A      | ![lsf][] | ![lss][] |
-| __black__     | ![lbm][] | ![lbf][] | ![lbs][] |
-| __white__     | ![lwm][] | ![lwf][] | ![lws][] |
+| __primary__   | ![lmp][] | ![lfp][] | ![lsp][] |
+| __secondary__ | N/A      | ![lfs][] | ![lss][] |
+| __black__     | ![lmb][] | ![lfb][] | ![lsb][] |
+| __white__     | ![lmw][] | ![lfw][] | ![lsw][] |
 
 ### Logo usage in plain text
 
@@ -83,9 +83,9 @@ Use `.svg` files where possible, if not, use `.png` files with a suitable size.
 naming convention for svg files;
 
 ```
-logo-primary-full.svg
+logo-full-primary.svg
 
-logo-[color]-[form].svg
+logo-[form]-[color].svg
 ```
 
 #### PNG files
@@ -96,10 +96,10 @@ folders indicating different sizes named `xs`, `s`, `m` and `l`.
 Below is the naming convention for png files;
 
 ```
-logo-secondary-short-5px.png
-logo-black-full-30px.png
+logo-short-secondary-5px.png
+logo-full-black-30px.png
 
-logo-[color]-[form]-[height].png
+logo-[form]-[color]-[height].png
 ```
 
 ### Exporting a new logo
@@ -119,18 +119,18 @@ and three forms, mark, short and terminal.
 
 | color \ form  | mark      | short     | terminal  |
 | ---           | ---       | ---       | ---       |
-| __primary__   | ![lppm][] | ![lpps][] | ![lppt][] |
-| __secondary__ | ![lpsm][] | ![lpss][] | ![lpst][] |
+| __primary__   | ![lpmp][] | ![lpsp][] | ![lptp][] |
+| __secondary__ | ![lpms][] | ![lpss][] | ![lpts][] |
 
 These exports are in [assets/logo/profile](./assets/logo/profile) folder with
 the following naming convention;
 
 ```
-logo-profile-primary-short.png
-logo-profile-secondary-terminal-500px.png
+logo-profile-short-primary.png
+logo-profile-terminal-secondary-500px.png
 
-logo-profile-[color]-[form].svg
-logo-profile-[color]-[form]-[height].png
+logo-profile-[form]-[color].svg
+logo-profile-[form]-[color]-[height].png
 ```
 
 ### How to Choose
@@ -153,10 +153,10 @@ are exported to [assets/logo/watermark](./assets/logo/watermark) in `15%`,
 Below is the naming convention for watermark logos;
 
 ```
-logo-watermark-black-full-0.15.svg
-logo-watermark-black-short-0.225.svg
+logo-watermark-full-black-0.15.svg
+logo-watermark-short-black-0.225.svg
 
-logo-watermark-[color]-[form]-[opacity].svg
+logo-watermark-[form]-[color]-[opacity].svg
 ```
 
 > ⚠️  Don't use watermarks directly in html, because they are meant to be used
@@ -169,11 +169,11 @@ Right now, there are no apparent use cases for badges, but they are prepared
 anyway. _primary_ badge is more suitable for brand related badges, whereas
 _black_ and _white_ badges can be used as status badges etc.
 
-| Type      | Badge    |
-| ---       | ---      |
-| _primary_ | ![lbp][] |
-| _black_   | ![lbb][] |
-| _white_   | ![lbw][] |
+| Type      | Badge     |
+| ---       | ---       |
+| _primary_ | ![lbmp][] |
+| _black_   | ![lbmb][] |
+| _white_   | ![lbmw][] |
 
 > ℹ️  _black mark_ and _white mark_ badges may have any color on left and right
 > side.
@@ -194,24 +194,24 @@ brand uses the same color as [GC
 Brains](https://github.com/gcbrains/brand#colors) to leave a mark in the brand
 hoping to remind its roots and core values to a future mouseless developer.
 
-[lpm]: ./assets/logo/png/s/logo-primary-mark-30px.png
-[lpf]: ./assets/logo/png/s/logo-primary-full-30px.png
-[lps]: ./assets/logo/png/s/logo-primary-short-30px.png
-[lsf]: ./assets/logo/png/s/logo-secondary-full-30px.png
-[lss]: ./assets/logo/png/s/logo-secondary-short-30px.png
-[lbm]: ./assets/logo/png/s/logo-black-mark-30px.png
-[lbf]: ./assets/logo/png/s/logo-black-full-30px.png
-[lbs]: ./assets/logo/png/s/logo-black-short-30px.png
-[lwm]: ./assets/logo/png/s/logo-white-mark-30px.png
-[lwf]: ./assets/logo/png/s/logo-white-full-30px.png
-[lws]: ./assets/logo/png/s/logo-white-short-30px.png
-[lppm]: ./assets/logo/profile/logo-profile-primary-mark-30px.png
-[lpps]: ./assets/logo/profile/logo-profile-primary-short-30px.png
-[lppt]: ./assets/logo/profile/logo-profile-primary-terminal-30px.png
-[lpsm]: ./assets/logo/profile/logo-profile-secondary-mark-30px.png
-[lpss]: ./assets/logo/profile/logo-profile-secondary-short-30px.png
-[lpst]: ./assets/logo/profile/logo-profile-secondary-terminal-30px.png
+[lmp]: ./assets/logo/png/s/logo-mark-primary-30px.png
+[lmb]: ./assets/logo/png/s/logo-mark-black-30px.png
+[lmw]: ./assets/logo/png/s/logo-mark-white-30px.png
+[lfp]: ./assets/logo/png/s/logo-full-primary-30px.png
+[lfs]: ./assets/logo/png/s/logo-full-secondary-30px.png
+[lfb]: ./assets/logo/png/s/logo-full-black-30px.png
+[lfw]: ./assets/logo/png/s/logo-full-white-30px.png
+[lsp]: ./assets/logo/png/s/logo-short-primary-30px.png
+[lss]: ./assets/logo/png/s/logo-short-secondary-30px.png
+[lsb]: ./assets/logo/png/s/logo-short-black-30px.png
+[lsw]: ./assets/logo/png/s/logo-short-white-30px.png
+[lpmp]: ./assets/logo/profile/logo-profile-mark-primary-30px.png
+[lpms]: ./assets/logo/profile/logo-profile-mark-secondary-30px.png
+[lpsp]: ./assets/logo/profile/logo-profile-short-primary-30px.png
+[lpss]: ./assets/logo/profile/logo-profile-short-secondary-30px.png
+[lptp]: ./assets/logo/profile/logo-profile-terminal-primary-30px.png
+[lpts]: ./assets/logo/profile/logo-profile-terminal-secondary-30px.png
 
-[lbp]: ...
-[lbb]: ...
-[lbw]: ...
+[lbmp]: ...
+[lbmb]: ...
+[lbmw]: ...
