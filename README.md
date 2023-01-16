@@ -91,13 +91,14 @@ logo-[form]-[color].svg
 #### PNG files
 
 `.png` files are in [assets/logo/png](./assets/logo/png) folder. There are four
-folders indicating different sizes named `xs`, `s`, `m` and `l`.
+folders indicating different sizes named `xs`, `s`, `m` and `l` that are `5px`,
+`50px`, `150px` and  `500px` in height respectively.
 
 Below is the naming convention for png files;
 
 ```
 logo-short-secondary-5px.png
-logo-full-black-30px.png
+logo-full-black-50px.png
 
 logo-[form]-[color]-[height].png
 ```
@@ -126,7 +127,7 @@ These exports are in [assets/logo/profile](./assets/logo/profile) folder with
 the following naming convention;
 
 ```
-logo-profile-short-primary.png
+logo-profile-short-primary.svg
 logo-profile-terminal-secondary-500px.png
 
 logo-profile-[form]-[color].svg
@@ -194,23 +195,23 @@ brand uses the same color as [GC
 Brains](https://github.com/gcbrains/brand#colors) to leave a mark in the brand
 hoping to remind its roots and core values to a future mouseless developer.
 
-[lmp]: ./assets/logo/png/s/logo-mark-primary-30px.png
-[lmb]: ./assets/logo/png/s/logo-mark-black-30px.png
-[lmw]: ./assets/logo/png/s/logo-mark-white-30px.png
-[lfp]: ./assets/logo/png/s/logo-full-primary-30px.png
-[lfs]: ./assets/logo/png/s/logo-full-secondary-30px.png
-[lfb]: ./assets/logo/png/s/logo-full-black-30px.png
-[lfw]: ./assets/logo/png/s/logo-full-white-30px.png
-[lsp]: ./assets/logo/png/s/logo-short-primary-30px.png
-[lss]: ./assets/logo/png/s/logo-short-secondary-30px.png
-[lsb]: ./assets/logo/png/s/logo-short-black-30px.png
-[lsw]: ./assets/logo/png/s/logo-short-white-30px.png
-[lpmp]: ./assets/logo/profile/logo-profile-mark-primary-30px.png
-[lpms]: ./assets/logo/profile/logo-profile-mark-secondary-30px.png
-[lpsp]: ./assets/logo/profile/logo-profile-short-primary-30px.png
-[lpss]: ./assets/logo/profile/logo-profile-short-secondary-30px.png
-[lptp]: ./assets/logo/profile/logo-profile-terminal-primary-30px.png
-[lpts]: ./assets/logo/profile/logo-profile-terminal-secondary-30px.png
+[lmp]: ./assets/logo/png/s/logo-mark-primary-50px.png
+[lmb]: ./assets/logo/png/s/logo-mark-black-50px.png
+[lmw]: ./assets/logo/png/s/logo-mark-white-50px.png
+[lfp]: ./assets/logo/png/s/logo-full-primary-50px.png
+[lfs]: ./assets/logo/png/s/logo-full-secondary-50px.png
+[lfb]: ./assets/logo/png/s/logo-full-black-50px.png
+[lfw]: ./assets/logo/png/s/logo-full-white-50px.png
+[lsp]: ./assets/logo/png/s/logo-short-primary-50px.png
+[lss]: ./assets/logo/png/s/logo-short-secondary-50px.png
+[lsb]: ./assets/logo/png/s/logo-short-black-50px.png
+[lsw]: ./assets/logo/png/s/logo-short-white-50px.png
+[lpmp]: ./assets/logo/profile/logo-profile-mark-primary-20px.png
+[lpms]: ./assets/logo/profile/logo-profile-mark-secondary-20px.png
+[lpsp]: ./assets/logo/profile/logo-profile-short-primary-25px.png
+[lpss]: ./assets/logo/profile/logo-profile-short-secondary-25px.png
+[lptp]: ./assets/logo/profile/logo-profile-terminal-primary-25px.png
+[lpts]: ./assets/logo/profile/logo-profile-terminal-secondary-25px.png
 
 [lbmp]: ...
 [lbmb]: ...
