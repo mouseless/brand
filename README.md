@@ -206,12 +206,12 @@ hoping to remind its roots and core values to a future mouseless developer.
 [lss]: ./assets/logo/png/s/logo-short-secondary-50px.png
 [lsb]: ./assets/logo/png/s/logo-short-black-50px.png
 [lsw]: ./assets/logo/png/s/logo-short-white-50px.png
-[lpmp]: ./assets/logo/profile/logo-profile-mark-primary-20px.png
-[lpms]: ./assets/logo/profile/logo-profile-mark-secondary-20px.png
-[lpsp]: ./assets/logo/profile/logo-profile-short-primary-25px.png
-[lpss]: ./assets/logo/profile/logo-profile-short-secondary-25px.png
-[lptp]: ./assets/logo/profile/logo-profile-terminal-primary-25px.png
-[lpts]: ./assets/logo/profile/logo-profile-terminal-secondary-25px.png
+[lpmp]: ./assets/logo/profile/logo-profile-mark-primary-100px.png
+[lpms]: ./assets/logo/profile/logo-profile-mark-secondary-100px.png
+[lpsp]: ./assets/logo/profile/logo-profile-short-primary-125px.png
+[lpss]: ./assets/logo/profile/logo-profile-short-secondary-125px.png
+[lptp]: ./assets/logo/profile/logo-profile-terminal-primary-125px.png
+[lpts]: ./assets/logo/profile/logo-profile-terminal-secondary-125px.png
 
 [lbmp]: ...
 [lbmb]: ...
