@@ -64,12 +64,12 @@ and look nice. Below is a list of suggestions to achieve this;
 
 Below are some examples;
 
-| Logo on backgrounds                 |
-| ---                                 |
-| ![](./.files/primary-on-light.png)  |
-| ![](./.files/secondary-on-dark.png) |
-| ![](./.files/black-on-light.png)    |
-| ![](./.files/white-on-dark.png)     |
+| Logo on backgrounds                  |
+| ---                                  |
+| ![](./.files/primary-on-color.png)   |
+| ![](./.files/secondary-on-color.png) |
+| ![](./.files/black-on-color.png)     |
+| ![](./.files/white-on-color.png)     |
 
 ### Finding a logo
 
