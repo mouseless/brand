@@ -176,8 +176,8 @@ _black_ and _white_ badges can be used as status badges etc.
 | _black_   | ![lbmb][] |
 | _white_   | ![lbmw][] |
 
-> ℹ️  _black mark_ and _white mark_ badges may have any color on left and right
-> side.
+> ℹ️  _black_ and _white_ badges may have any color on left and right side.
+
 ## Colors
 
 Primary brand color is ![](https://via.placeholder.com/20/F9465B/000000?text=+)
