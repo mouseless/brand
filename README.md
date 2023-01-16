@@ -166,9 +166,9 @@ logo-watermark-[form]-[color]-[opacity].svg
 
 ## Badges
 
-Right now, there are no apparent use cases for badges, but they are prepared
-anyway. _primary_ badge is more suitable for brand related badges, whereas
-_black_ and _white_ badges can be used as status badges etc.
+There are no apparent use cases for badges, but they are prepared anyway.
+_primary_ and _secondary_ badges are more suitable for brand related badges,
+whereas _black_ and _white_ badges can be used as status badges etc.
 
 | Type        | Badge     |
 | ---         | ---       |
@@ -176,8 +176,6 @@ _black_ and _white_ badges can be used as status badges etc.
 | _secondary_ | ![lbms][] |
 | _black_     | ![lbmb][] |
 | _white_     | ![lbmw][] |
-
-> ℹ️  _black_ and _white_ badges may have any color on left and right side.
 
 ## Colors
 
