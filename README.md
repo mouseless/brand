@@ -41,6 +41,9 @@ As a result there are 11 combinations as shown below;
 | __black__     | ![lmb][] | ![lfb][] | ![lsb][] |
 | __white__     | ![lmw][] | ![lfw][] | ![lsw][] |
 
+Unlike a regular logo, we prefer dark background over a light one, because the
+terminal feel comes from a dark background.
+
 ### Logo usage in plain text
 
 When logo is needed in a place where image cannot be included, you may use
@@ -56,10 +59,10 @@ restriction. However, if you use a logo this means you want it to be noticed
 and look nice. Below is a list of suggestions to achieve this;
 
 - Prefer _primary_ & _secondary_ logos over _black_ & _white_ wherever possible
-- Use _primary_ & _black_ for light backgrounds, _secondary_ & _white_ for dark
+- Use _primary_ & _white_ for dark backgrounds, _secondary_ & _black_ for light
   backgrounds
-  - When you use _mark_, there is only _primary_ color which might fit dark
-    backgrounds as well.
+  - When you use _mark_, there is only _primary_ color which might fit both
+    light and dark backgrounds.
 - Form preference is _full_, then _short_. If none fits well, use _mark_.
 
 Below are some examples;
@@ -135,9 +138,6 @@ logo-profile-[form]-[color]-[height].png
 ```
 
 ### How to Choose
-
-Unlike regular logo usage, prefer secondary color with black background over
-primary color because the terminal feel comes from a dark background.
 
 Depending on the platform, you may prefer mark form or short form. If target
 platform places brand name on the right side of profile picture, then it is
