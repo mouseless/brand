@@ -174,8 +174,8 @@ whereas _black_ and _white_ badges can be used as status badges etc.
 | ---         | ---       |
 | _primary_   | ![lbmp][] |
 | _secondary_ | ![lbms][] |
-| _black_     | ![lbmb][] |
 | _white_     | ![lbmw][] |
+| _black_     | ![lbmb][] |
 
 ## Colors
 
