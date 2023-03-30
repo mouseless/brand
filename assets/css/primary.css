@@ -1,0 +1,27 @@
+@import url('root.css');
+
+body {
+  background-color: #000000;
+  color: #B3B3B3;
+}
+
+img.mouseless:is(.logo),
+img.mouseless:is(.logo:is(.full)) {
+  content: url(../logo/svg/logo-full-primary.svg);
+}
+
+img.mouseless:is(.logo:is(.short)) {
+  content: url(../logo/svg/logo-short-primary.svg);
+}
+
+img.mouseless:is(.logo:is(.mark)) {
+  content: url(../logo/svg/logo-mark-primary.svg);
+}
+
+a {
+  color: #FA6B7C;
+}
+
+a:hover {
+  color: #F9465B;
+}
