@@ -2,3 +2,15 @@ body {
   background-color: black;
   color: white;
 }
+
+.logo-fulll{
+  background-size: auto 100%;
+  width: 650px;
+  height: 50px;
+}
+
+.primary:is(.logo-full){
+  background-image: url(../logo/svg/logo-full-primary.svg);
+}
+
+
