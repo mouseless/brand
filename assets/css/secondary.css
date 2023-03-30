@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+    color: black;
+  }
+
+.logo, .logo:is(.full) {
+    height: 50px;
+    content: url(../logo/svg/logo-full-secondary.svg);
+  }
+  
+  .logo:is(.mark) {
+    content: url(../logo/svg/logo-mark-secondary.svg);
+  }
+  
+  .logo:is(.short) {
+    content: url(../logo/svg/logo-short-secondary.svg);
+  }
