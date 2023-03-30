@@ -3,4 +3,7 @@
 
 @import '{{ site.theme }}';
 
-@import 'primary';
+body {
+  background-color: black;
+  font-color: white;
+}
