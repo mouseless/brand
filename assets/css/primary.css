@@ -7,10 +7,21 @@ body {
   background-size: auto 100%;
   width: 650px;
   height: 50px;
+  background-image: url(../logo/svg/logo-full-primary.svg);
 }
 
-.primary:is(.logo-full){
-  background-image: url(../logo/svg/logo-full-primary.svg);
+.logo-mark{
+  background-size: auto 100%;
+  width: 50px;
+  height: 50px;
+  background-image: url(../logo/svg/logo-mark-primary.svg);
+}
+
+.logo-short{
+  background-size: auto 100%;
+  width: 170px;
+  height: 50px;
+  background-image: url(../logo/svg/logo-short-primary.svg);
 }
 
 
