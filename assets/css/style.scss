@@ -1,0 +1,11 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.markdown-body table {
+    tr,
+    tr:nth-child(2n) {
+        background: #000;
+    }
+}
