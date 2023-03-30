@@ -3,4 +3,4 @@
 
 @import '{{ site.theme }}';
 
-@import 'primary.css';
+{%include assets/css/primary.css %}
