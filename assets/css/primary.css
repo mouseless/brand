@@ -11,22 +11,23 @@ h1, h2, h3, h4, h5, h6, th, a {
   font-weight: 700;
 }
 
-.logo, .logo:is(.full) {
+img.mouseless:is(.logo), .mouseless:is(.logo:is(.full)) {
   height: 50px;
   content: url(../logo/svg/logo-full-primary.svg);
 }
 
-.logo:is(.mark) {
-  content: url(../logo/svg/logo-mark-primary.svg);
-}
-
-.logo:is(.short) {
+img.mouseless:is(.logo:is(.short)) {
   content: url(../logo/svg/logo-short-primary.svg);
 }
 
-a{
-  color:#FA6B7C
+img.mouseless:is(.logo:is(.mark)) {
+  content: url(../logo/svg/logo-mark-primary.svg);
 }
-a:hover{
-  color:#F9465B
+
+a {
+  color:#FA6B7C;
+}
+
+a:hover {
+  color:#F9465B;
 }

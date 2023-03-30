@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Mono:wght@400;500;600;700&display=swap');
-  
+
 body {
   background-color: white;
   color: black;
@@ -11,22 +11,23 @@ h1, h2, h3, h4, h5, h6, th, a {
   font-weight: 700;
 }
 
-.logo, .logo:is(.full) {
+img.mouseless:is(.logo), .mouseless:is(.logo:is(.full)) {
   height: 50px;
   content: url(../logo/svg/logo-full-secondary.svg);
 }
 
-.logo:is(.mark) {
-  content: url(../logo/svg/logo-mark-secondary.svg);
-}
-
-.logo:is(.short) {
+img.mouseless:is(.logo:is(.short)) {
   content: url(../logo/svg/logo-short-secondary.svg);
 }
 
-a{
+img.mouseless:is(.logo:is(.mark)) {
+  content: url(../logo/svg/logo-mark-primary.svg);
+}
+
+a {
   color:#FA6B7C;
 }
-a:hover{
+
+a:hover {
   color:#F9465B;
 }
