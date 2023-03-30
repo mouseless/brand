@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/assets/css/secondary.css">
+        <link rel="stylesheet" href="/assets/css/primary.css">
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var link = document.getElementsByTagName("link").item(0);
+                var theme = link.getAttribute("href")
+
+                document.getElementById("changeCss").innerHTML = theme.substring(theme.lastIndexOf('/')+1);
+            });
+
+            function changeCSS() {
+                var link = document.getElementsByTagName("link").item(0);
+                var theme = link.getAttribute("href") == "/assets/css/primary.css" ? "/assets/css/secondary.css" : "/assets/css/primary.css"      
+                
+                link.setAttribute("href", theme);
+
+                document.getElementById("changeCss").innerHTML = theme.substring(theme.lastIndexOf('/')+1);
+            }
+        </script>
     </head>
     <body>
         <header>
-            <a href="primary.html">primary</a>
+            <button id="changeCss" onclick="changeCSS(0);">changeCSS</button>
         </header>
         <br/>
         <article>
@@ -48,13 +65,16 @@
         </ol>
         <p>blockquote</p>
         <blockquote cite="http://www.worldwildlife.org/who/index.html">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, 
-            harum alias? Molestias, enim rem. Quibusdam fuga eligendi quos 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat,
+            harum alias? Molestias, enim rem. Quibusdam fuga eligendi quos
             corrupti itaque, in iure, nulla veritatis adipisci eos quia sapiente suscipit ex.
         </blockquote>
-        <p>Lorem, ipsum dolor <code>code</code> sit amet consectetur adipisicing elit. Ullam, 
-            voluptatum rerum dicta tenetur aliquid maiores. 
+        <p>Lorem, ipsum dolor <code>code</code> sit amet consectetur adipisicing elit. Ullam,
+            voluptatum rerum dicta tenetur aliquid maiores.
         </p>
+        <pre>
+            const code = "mouseless";
+        </pre>
         </article>
     </body>
 </html>
