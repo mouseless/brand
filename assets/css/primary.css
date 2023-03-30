@@ -3,25 +3,23 @@ body {
   color: white;
 }
 
-.logo-full{
+.logo, .logo:is(.full) {
   background-size: auto 100%;
   width: 650px;
   height: 50px;
   background-image: url(../logo/svg/logo-full-primary.svg);
 }
 
-.logo-mark{
+.logo:is(.mark) {
   background-size: auto 100%;
   width: 50px;
   height: 50px;
   background-image: url(../logo/svg/logo-mark-primary.svg);
 }
 
-.logo-short{
+.logo:is(.short) {
   background-size: auto 100%;
   width: 170px;
   height: 50px;
   background-image: url(../logo/svg/logo-short-primary.svg);
 }
-
-
