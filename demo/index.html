@@ -12,17 +12,17 @@
 
             function changeCSS() {
                 var link = document.getElementsByTagName("link").item(0);
-                var theme = link.getAttribute("href") == "/assets/css/primary.css" ? "/assets/css/secondary.css" : "/assets/css/primary.css"      
-                
+                var theme = link.getAttribute("href") == "/assets/css/primary.css" ? "/assets/css/secondary.css" : "/assets/css/primary.css"
+
                 link.setAttribute("href", theme);
 
-                document.getElementById("changeCss").innerHTML = theme.substring(theme.lastIndexOf('/')+1);
+                document.getElementById("changeCss").innerHTML = theme.substring(theme.lastIndexOf('/') + 1);
             }
         </script>
     </head>
     <body>
         <header>
-            <button id="changeCss" onclick="changeCSS(0);">changeCSS</button>
+            <button id="changeCss" onclick="changeCSS();">changeCSS</button>
         </header>
         <br/>
         <article>
