@@ -6,11 +6,11 @@ For the original brandkit you can download [brandkit.fig](./brandkit.fig) or
 
 ## The Story
 
-We are a software development studio centered around its experts who are
+We are a software development collective centered around its experts who are
 dedicated to seek perfection in their work. We work slow but sure. And we see
-"what" as value for our customers and "how" as value for the studio.
+"what" as value for our customers and "how" as value for the collective itself.
 
-Inspired from this vision, we named our studio as __Mouseless__.
+Inspired from this vision, we named our collective as __Mouseless__.
 
 Our intention is to make everyone in the team use their mouse less, and
 preferably become a mouseless developer.
@@ -188,9 +188,9 @@ contrast.
 ### Inspiration
 
 Mouseless is founded by [Cihan Deniz](https://github.com/cihandeniz) to create
-a place where elite developers can join and perform their craft with passion.
-Without being certain of what this studio may become in the future, Mouseless
-brand uses the same color as [GC
+a collective where developers can join and perform their craft with passion.
+Without being certain of what this collective may become in the future,
+Mouseless brand uses the same color as [GC
 Brains](https://github.com/gcbrains/brand#colors) to leave a mark in the brand
 hoping to remind its roots and core values to a future mouseless developer.
 
