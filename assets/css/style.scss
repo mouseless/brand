@@ -7,15 +7,15 @@
     table {
         tr,
         tr:nth-child(2n) {
-            background: #000;
+            background: var(--color-bg-table);
         }
     }
     .highlight pre,
     pre {
-        background-color: #1A1A1A;
+        background-color: var(--color-bg-code);
     }
 }
 
 .highlight {
-    background-color: #000;
+    background-color: var(--color-bg);
 }
