@@ -2,6 +2,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
 }
 
 h1, h2, h3, h4, h5, h6, th, a {
@@ -14,4 +16,16 @@ h1, h2, h3, h4, h5, h6, th {
 
 img.mouseless:is(.logo) {
   height: 50px;
+}
+
+a {
+  color: color-mix(in srgb, var(--color-brand), var(--color-bg) 10%);
+}
+
+a:hover {
+  color: var(--color-brand);
+}
+
+img.mouseless:is(.logo:is(.mark)) {
+  content: url(../logo/svg/logo-mark-primary.svg);
 }

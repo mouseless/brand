@@ -1,33 +1,20 @@
 @import url('root.css');
 
 :root {
-  /* light theme */
-  --color-bg: #ebebeb;
-  --color-fg: #000000;
   --color-brand: #fa465b;
-  --color-bg-body: #ebebeb;
-  --color-bg-code: #88888832;
-  --color-bg-box: #111111;
-  --color-bg-box-menu: #cacaca;
-  --color-fg-active: #111111;
-  --color-fg-passive: #111111;
-  --color-fg-code: #444444;
-  --color-border: #cacaca;
-  --color-border-code: #646464;
 
-  --color-box-tip: #1c8c12;
-  --color-box-info: #1a2da6;
-  --color-box-danger: #c41a1a;
-  --color-box-warning: #9f5f00;
-  --color-box-default: var(--color-fg);
+  --color-bg: #ebebeb;
+  --color-bg-2: #cacaca; /* --color-bg-box-menu, --color-border, --color-bg-table */
+  --color-bg-3: #888888; /* --color-bg-code */
+  --color-bg-4: #646464; /* --color-border-code */
 
-  --color-fg-table: #000000;
-  --color-bg-table: #cacaca;
-}
+  --color-fg: #000000; /* --color-box-default, --color-fg-table, --color-fg-code */
+  --color-fg-2: #111111; /* --color-fg-active, --color-fg-passive */
 
-body {
-  background-color: var(--color-bg);
-  color: var(--color-fg);
+  --color-success: #1c8c12; /* --color-box-tip */
+  --color-info: #1a2da6; /* --color-box-info */
+  --color-danger: #c41a1a; /* --color-box-danger */
+  --color-warning: #9f5f00; /* --color-box-warning */
 }
 
 img.mouseless:is(.logo),
@@ -39,14 +26,6 @@ img.mouseless:is(.logo:is(.short)) {
   content: url(../logo/svg/logo-short-secondary.svg);
 }
 
-img.mouseless:is(.logo:is(.mark)) {
-  content: url(../logo/svg/logo-mark-primary.svg);
-}
-
-a {
-  color: color-mix(in srgb, var(--color-brand), var(--color-bg) 10%);
-}
-
-a:hover {
-  color: var(--color-brand);
+img.mouseless:is(.logo:is(.mono)) {
+  content: url(../logo/svg/logo-short-black.svg);
 }
