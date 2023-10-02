@@ -4,17 +4,17 @@
   --color-brand: #fa465b;
 
   --color-bg: #000000;
-  --color-bg-2: #222222; /* --color-bg-box-menu, --color-border, --color-bg-table */
-  --color-bg-3: #ffffff; /* --color-bg-code */
-  --color-bg-4: #646464; /* --color-border-code */
+  --color-bg-2: #222222;
+  --color-bg-3: #ffffff;
+  --color-bg-4: #646464;
 
-  --color-fg: #cccccc; /* --color-box-default, --color-fg-table, --color-fg-code */
-  --color-fg-2: #9b9b9b; /* --color-fg-active, --color-fg-passive */
+  --color-fg: #cccccc;
+  --color-fg-2: #9b9b9b;
 
-  --color-success: #37f426; /* --color-box-tip */
-  --color-info: #3893f4; /* --color-box-info */
-  --color-danger: #e76565; /* --color-box-danger */
-  --color-warning: #bc930e; /* --color-box-warning */
+  --color-success: #37f426;
+  --color-info: #3893f4;
+  --color-danger: #e76565;
+  --color-warning: #bc930e;
 }
 
 img.mouseless:is(.logo),
