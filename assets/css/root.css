@@ -17,26 +17,54 @@ body {
   color: var(--color-fg);
   font-family: var(--font-default);
   font-size: 14px;
+  line-height: 1.45em;
+}
+
+img.mouseless:is(.logo) {
+  height: 25px;
+}
+
+img.mouseless:is(.logo:is(.mark)) {
+  content: url(../logo/svg/logo-mark-primary.svg);
+}
+
+nav {
+  font-family: var(--font-heading);
 }
 
 h1, h2, h3, h4, h5, h6, th {
   font-family: var(--font-heading);
   font-weight: 700;
-}
-
-h1 { font-size: 2em; }
-h2 { font-size: 1.7em; }
-h3 { font-size: 1.5em; }
-h4 { font-size: 1.3em; }
-h5 { font-size: 1.2em; }
-h6 { font-size: 1.1em; }
-
-h1, h2, h3, h4, h5, h6, th {
   color: var(--color-logo-text);
 }
 
-img.mouseless:is(.logo) {
-  height: 25px;
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1.1em;
 }
 
 a {
@@ -47,12 +75,12 @@ a:hover {
   color: var(--color-logo-mark);
 }
 
-img.mouseless:is(.logo:is(.mark)) {
-  content: url(../logo/svg/logo-mark-primary.svg);
+p, blockquote, li {
+  max-width: 80ch;
 }
 
-p, blockquote {
-  max-width: 80ch;
+table th, table td {
+  padding: 0.5em;
 }
 
 code, pre {
