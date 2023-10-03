@@ -12,6 +12,7 @@
   --font-heading: 'DM Sans', sans-serif;
 
   --height-logo: 25px;
+  --width-content: 80ch;
 }
 
 body {
@@ -78,7 +79,7 @@ a:hover {
 }
 
 p, blockquote, li {
-  max-width: 80ch;
+  max-width: var(--width-content);
 }
 
 table th, table td {
