@@ -14,14 +14,14 @@
   --color-green-soft: #1dffbd;
   --color-green-mute: #1dffbd;
 
-  --color-info-soft: #229aff;
-  --color-info-mute: #229aff;
+  --color-blue-soft: #229aff;
+  --color-blue-mute: #229aff;
 
-  --color-danger-soft: #fa465b;
-  --color-danger-mute: #fa465b;
+  --color-red-soft: #fa465b;
+  --color-red-mute: #fa465b;
 
-  --color-warning-soft: #ffff82;
-  --color-warning-mute: #ffff82;
+  --color-yellow-soft: #ffff82;
+  --color-yellow-mute: #ffff82;
 }
 
 img.mouseless:is(.logo),
