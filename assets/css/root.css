@@ -10,6 +10,8 @@
 
   --font-default: 'Roboto Mono', monospace;
   --font-heading: 'DM Sans', sans-serif;
+
+  --height-logo: 25px;
 }
 
 body {
@@ -21,7 +23,7 @@ body {
 }
 
 img.mouseless:is(.logo) {
-  height: 25px;
+  height: var(--height-logo);
 }
 
 img.mouseless:is(.logo:is(.mark)) {
