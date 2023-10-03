@@ -1,81 +1,127 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="/assets/css/default.css">
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                var link = document.getElementsByTagName("link").item(0);
-                var theme = link.getAttribute("href")
-
-                document.getElementById("changeCss").innerHTML = theme.substring(theme.lastIndexOf('/')+1);
-            });
-
-            function changeCSS() {
-                var link = document.getElementsByTagName("link").item(0);
-                var theme = link.getAttribute("href") == "/assets/css/primary.css" ? "/assets/css/secondary.css" : "/assets/css/primary.css"
-
-                link.setAttribute("href", theme);
-
-                document.getElementById("changeCss").innerHTML = theme.substring(theme.lastIndexOf('/') + 1);
-            }
-        </script>
-    </head>
-    <body>
-        <header>
-            <button id="changeCss" onclick="changeCSS();">changeCSS</button>
-        </header>
-        <br/>
-        <article>
-        <img class="mouseless logo" />
-        <hr/>
-        <img class="mouseless logo full"/>
-        <hr/>
-        <img class="mouseless logo short"/>
-        <hr/>
-        <img class="mouseless logo mark"/>
-        <hr/>
-        <h1>Header 1</h1>
-        <h2>Header 2</h2>
-        <h3>Header 3</h3>
-        <h4>Header 4</h4>
-        <h5>Header 5</h5>
-        <h6>Header 6</h6>
-        <p>Normal text</p>
-        <p><b>Bold text</b></p>
-        <p><i>Italic text</i></p>
-        <p><a href="https://github.com/mouseless">github/mouseless</a></p>
-        <table>
-            <thead>
-                <th>Column</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Cell</td>
-                </tr>
-            </tbody>
-        </table>
-        <p>unordered list</p>
-        <ul>
-            <li>item</li>
-            <li>item</li>
-        </ul>
-        <p>ordered list</p>
-        <ol>
-            <li>item</li>
-            <li>item</li>
-        </ol>
-        <p>blockquote</p>
-        <blockquote cite="http://www.worldwildlife.org/who/index.html">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat,
-            harum alias? Molestias, enim rem. Quibusdam fuga eligendi quos
-            corrupti itaque, in iure, nulla veritatis adipisci eos quia sapiente suscipit ex.
-        </blockquote>
-        <p>Lorem, ipsum dolor <code>code</code> sit amet consectetur adipisicing elit. Ullam,
-            voluptatum rerum dicta tenetur aliquid maiores.
-        </p>
-        <pre>
-            const code = "mouseless";
-        </pre>
-        </article>
-    </body>
+  <head>
+    <link rel="stylesheet" href="/assets/css/default.css">
+    <script>
+      function setTheme(theme) {
+        document
+          .getElementsByTagName("link")
+          .item(0)
+          .setAttribute("href", `/assets/css/${theme}.css`);
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <button id="secondary" onclick="setTheme('secondary');" style="float: right;">secondary</button>
+      <button id="primary" onclick="setTheme('primary');" style="float: right;">primary</button>
+      <button id="default" onclick="setTheme('default');" style="float: right;">default</button>
+      <img class="mouseless logo" />
+      <img class="mouseless logo mono" />
+      <hr/>
+      <img class="mouseless logo full"/>
+      <img class="mouseless logo full mono" />
+      <hr/>
+      <img class="mouseless logo short"/>
+      <img class="mouseless logo short mono" />
+      <hr/>
+      <img class="mouseless logo mark"/>
+      <img class="mouseless logo mark mono" />
+    </header>
+    <br/>
+    <article>
+      <h1>Header 1</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at mi ut lacus
+        lacinia convallis. Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia curae; Vestibulum consequat dignissim rhoncus. Donec
+        in lacus magna. Praesent cursus, nunc id rhoncus porttitor, ipsum tellus
+        porttitor purus, eu ultrices sem justo porta nisl. Phasellus pharetra porttitor
+        placerat. Ut in imperdiet est.
+      </p>
+      <h2>Header 2</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at mi ut lacus
+        lacinia convallis. Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia curae; Vestibulum consequat dignissim rhoncus. Donec
+        in lacus magna. Praesent cursus, nunc id rhoncus porttitor, ipsum tellus
+        porttitor purus, eu ultrices sem justo porta nisl. Phasellus pharetra porttitor
+        placerat. Ut in imperdiet est.
+      </p>
+      <h3>Header 3</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at mi ut lacus
+        lacinia convallis. Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia curae; Vestibulum consequat dignissim rhoncus. Donec
+        in lacus magna. Praesent cursus, nunc id rhoncus porttitor, ipsum tellus
+        porttitor purus, eu ultrices sem justo porta nisl. Phasellus pharetra porttitor
+        placerat. Ut in imperdiet est.
+      </p>
+      <h4>Header 4</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at mi ut lacus
+        lacinia convallis. Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia curae; Vestibulum consequat dignissim rhoncus. Donec
+        in lacus magna. Praesent cursus, nunc id rhoncus porttitor, ipsum tellus
+        porttitor purus, eu ultrices sem justo porta nisl. Phasellus pharetra porttitor
+        placerat. Ut in imperdiet est.
+      </p>
+      <h5>Header 5</h5>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at mi ut lacus
+        lacinia convallis. Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia curae; Vestibulum consequat dignissim rhoncus. Donec
+        in lacus magna. Praesent cursus, nunc id rhoncus porttitor, ipsum tellus
+        porttitor purus, eu ultrices sem justo porta nisl. Phasellus pharetra porttitor
+        placerat. Ut in imperdiet est.
+      </p>
+      <h6>Header 6</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at mi ut lacus
+        lacinia convallis. Vestibulum ante ipsum primis in faucibus orci luctus et
+        ultrices posuere cubilia curae; Vestibulum consequat dignissim rhoncus. Donec
+        in lacus magna. Praesent cursus, nunc id rhoncus porttitor, ipsum tellus
+        porttitor purus, eu ultrices sem justo porta nisl. Phasellus pharetra porttitor
+        placerat. Ut in imperdiet est.
+      </p>
+      <p>Normal text</p>
+      <p><b>Bold text</b></p>
+      <p><i>Italic text</i></p>
+      <p><a href="https://github.com/mouseless">github/mouseless</a></p>
+      <table>
+        <thead>
+          <th>Column</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cell</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>unordered list</p>
+      <ul>
+        <li>item</li>
+        <li>item</li>
+      </ul>
+      <p>ordered list</p>
+      <ol>
+        <li>item</li>
+        <li>item</li>
+      </ol>
+      <p>blockquote</p>
+      <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat,
+        harum alias? Molestias, enim rem. Quibusdam fuga eligendi quos
+        corrupti itaque, in iure, nulla veritatis adipisci eos quia
+        sapiente suscipit ex.
+      </blockquote>
+      <p>
+        Lorem, ipsum dolor <code>code</code> sit amet consectetur adipisicing
+        elit. Ullam, voluptatum rerum dicta tenetur aliquid maiores.
+      </p>
+      <pre>
+        const code = "mouseless";
+      </pre>
+    </article>
+  </body>
 </html>

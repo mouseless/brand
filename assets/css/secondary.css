@@ -1,20 +1,27 @@
 @import url('root.css');
 
 :root {
-  --color-brand: #fa465b;
+  --color-logo-text: #000000;
 
-  --color-bg: #ebebeb;
-  --color-bg-2: #cacaca;
-  --color-bg-3: #888888;
-  --color-bg-4: #646464;
+  --color-bg: #f6f6f6;
+  --color-bg-soft: #cacaca;
+  --color-bg-mute: #888888;
 
   --color-fg: #000000;
-  --color-fg-2: #111111;
+  --color-fg-soft: #111111;
+  --color-fg-mute: #222222;
 
-  --color-success: #1c8c12;
-  --color-info: #1a2da6;
-  --color-danger: #c41a1a;
-  --color-warning: #9f5f00;
+  --color-green-soft: #1dffbd;
+  --color-green-mute: #1dffbd;
+
+  --color-info-soft: #229aff;
+  --color-info-mute: #229aff;
+
+  --color-danger-soft: #fa465b;
+  --color-danger-mute: #fa465b;
+
+  --color-warning-soft: #ffff82;
+  --color-warning-mute: #ffff82;
 }
 
 img.mouseless:is(.logo),
@@ -26,6 +33,15 @@ img.mouseless:is(.logo:is(.short)) {
   content: url(../logo/svg/logo-short-secondary.svg);
 }
 
-img.mouseless:is(.logo:is(.mono)) {
+img.mouseless:is(.logo:is(.mono)),
+img.mouseless:is(.logo:is(.full:is(.mono))) {
+  content: url(../logo/svg/logo-full-black.svg);
+}
+
+img.mouseless:is(.logo:is(.short:is(.mono))) {
   content: url(../logo/svg/logo-short-black.svg);
+}
+
+img.mouseless:is(.logo:is(.mark:is(.mono))) {
+  content: url(../logo/svg/logo-mark-black.svg);
 }

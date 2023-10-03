@@ -1,20 +1,27 @@
 @import url('root.css');
 
 :root {
-  --color-brand: #fa465b;
+  --color-logo-text: #ffffff;
 
-  --color-bg: #000000;
-  --color-bg-2: #222222;
-  --color-bg-3: #444444;
-  --color-bg-4: #646464;
+  --color-bg: #061819;
+  --color-bg-soft: #092122;
+  --color-bg-mute: #163738;
 
-  --color-fg: #cccccc;
-  --color-fg-2: #9b9b9b;
+  --color-fg: #f6f6f6;
+  --color-fg-soft: #a6a6a6;
+  --color-fg-mute: #868686;
 
-  --color-success: #37f426;
-  --color-info: #3893f4;
-  --color-danger: #e76565;
-  --color-warning: #bc930e;
+  --color-green-soft: #1dffbd;
+  --color-green-mute: #1dffbd;
+
+  --color-info-soft: #229aff;
+  --color-info-mute: #229aff;
+
+  --color-danger-soft: #fa465b;
+  --color-danger-mute: #fa465b;
+
+  --color-warning-soft: #ffff82;
+  --color-warning-mute: #ffff82;
 }
 
 img.mouseless:is(.logo),
@@ -26,6 +33,15 @@ img.mouseless:is(.logo:is(.short)) {
   content: url(../logo/svg/logo-short-primary.svg);
 }
 
-img.mouseless:is(.logo:is(.mono)) {
+img.mouseless:is(.logo:is(.mono)),
+img.mouseless:is(.logo:is(.full:is(.mono))) {
+  content: url(../logo/svg/logo-full-white.svg);
+}
+
+img.mouseless:is(.logo:is(.short:is(.mono))) {
   content: url(../logo/svg/logo-short-white.svg);
+}
+
+img.mouseless:is(.logo:is(.mark:is(.mono))) {
+  content: url(../logo/svg/logo-mark-white.svg);
 }
