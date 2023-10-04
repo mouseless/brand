@@ -78,8 +78,19 @@ a:hover {
   color: var(--color-logo-mark);
 }
 
-p, blockquote, li {
+p {
   max-width: var(--width-content);
+}
+
+ul, ol {
+  padding-inline-start: 3ch;
+  max-width: calc(var(--width-content) - 3ch);
+}
+
+blockquote {
+  max-width: calc(var(--width-content) - 3ch);
+  margin-inline-start: 3ch;
+  margin-inline-end: 0;
 }
 
 table th, table td {
