@@ -11,6 +11,7 @@
   --font-default: 'Roboto Mono', monospace;
   --font-heading: 'DM Sans', sans-serif;
 
+  --font-size: 14px;
   --height-logo: 25px;
   --width-content: 80ch;
 }
@@ -19,7 +20,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-fg);
   font-family: var(--font-default);
-  font-size: 14px;
+  font-size: var(--font-size);
   line-height: 1.45em;
 }
 
