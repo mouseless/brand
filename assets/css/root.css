@@ -3,6 +3,16 @@
 :root {
   --color-logo-mark: #fa465b;
 
+  --color-black-darkest: #000000;
+  --color-black: #061819;
+  --color-black-lighter: #092122;
+  --color-black-lightest: #163738;
+
+  --color-white-lightest: #ffffff;
+  --color-white: #f6f6f6;
+  --color-white-darker: #cacaca;
+  --color-white-darkest: #888888;
+
   --color-green: #1dffbd;
   --color-blue: #229aff;
   --color-red: #fa465b;

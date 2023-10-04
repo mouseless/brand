@@ -1,15 +1,15 @@
 @import url('root.css');
 
 :root {
-  --color-logo-text: #000000;
+  --color-logo-text: var(--color-black-darkest);
 
-  --color-bg: #f6f6f6;
-  --color-bg-soft: #cacaca;
-  --color-bg-mute: #888888;
+  --color-bg: var(--color-white);
+  --color-bg-soft: var(--color-white-darker);
+  --color-bg-mute: var(--color-white-darkest);
 
-  --color-fg: #061819;
-  --color-fg-soft: #092122;
-  --color-fg-mute: #163738;
+  --color-fg: var(--color-black);
+  --color-fg-soft: var(--color-black-lighter);
+  --color-fg-mute: var(--color-black-lightest);
 
   --color-green-soft: #1dffbd;
   --color-green-mute: #1dffbd;
