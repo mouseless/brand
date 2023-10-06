@@ -10,18 +10,6 @@
   --color-fg: var(--color-black);
   --color-fg-soft: var(--color-black-lighter);
   --color-fg-mute: var(--color-black-lightest);
-
-  --color-green-soft: #1dffbd;
-  --color-green-mute: #1dffbd;
-
-  --color-blue-soft: #229aff;
-  --color-blue-mute: #229aff;
-
-  --color-red-soft: #fa465b;
-  --color-red-mute: #fa465b;
-
-  --color-yellow-soft: #ffff82;
-  --color-yellow-mute: #ffff82;
 }
 
 img.mouseless:is(.logo),
