@@ -18,10 +18,11 @@
   --color-white-darker: #e4e7e7;
   --color-white-darkest: #c8cfd0;
 
-  --color-green: #1dffbd;
+  --color-green: #05ffc5;
   --color-blue: #229aff;
-  --color-red: #ff1a34;
-  --color-yellow: #ffc91a;
+  --color-red: #ff3d3d;
+  --color-orange: #ffcb5c;
+  --color-yellow: #ffff82;
 
   --font-default: 'Roboto Mono', monospace;
   --font-heading: 'DM Sans', sans-serif;
