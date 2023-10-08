@@ -7,9 +7,9 @@
   --color-bg-soft: var(--color-black-lighter);
   --color-bg-mute: var(--color-black-lightest);
 
-  --color-fg: var(--color-white);
-  --color-fg-soft: var(--color-white-darker);
-  --color-fg-mute: var(--color-white-darkest);
+  --color-fg: var(--color-gray);
+  --color-fg-soft: var(--color-gray-darker);
+  --color-fg-mute: var(--color-gray-darkest);
 }
 
 img.mouseless:is(.logo),
