@@ -121,7 +121,6 @@ table th, table td {
 
 code, pre {
   background-color: var(--color-bg-soft);
-  white-space: pre-line;
 }
 
 code {
