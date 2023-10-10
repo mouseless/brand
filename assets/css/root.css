@@ -5,6 +5,9 @@
 
   --color-logo-mark: #fa465b;
 
+  --color-bg-box: var(--color-black-lighter);
+  --color-fg-box: var(--color-gray);
+
   --color-black-darkest: #000000;
   --color-black: #061819;
   --color-black-lighter: #092122;
@@ -125,8 +128,8 @@ code {
 }
 
 pre {
-  background-color: var(--color-black-lighter);
-  color: var(--color-gray);
+  background-color: var(--color-bg-box);
+  color: var(--color-fg-box);
   border-radius: var(--border-radius);
   padding: var(--border-radius);
 }
