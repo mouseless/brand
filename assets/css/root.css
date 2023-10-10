@@ -119,7 +119,7 @@ table th, table td {
   padding: 0.5em;
 }
 
-code, pre {
+code {
   background-color: var(--color-bg-soft);
 }
 
@@ -128,6 +128,8 @@ code {
 }
 
 pre {
+  background-color: var(--color-black-lighter);
+  color: var(--color-gray);
   border-radius: var(--border-radius);
   padding: var(--border-radius);
 }
