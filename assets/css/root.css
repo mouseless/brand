@@ -121,9 +121,6 @@ table th, table td {
 
 code {
   background-color: var(--color-bg-soft);
-}
-
-code {
   padding: 0.5ch;
 }
 
