@@ -63,9 +63,9 @@ h1, h2, h3, h4, h5, h6, th {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 1.5em;
-  scroll-margin-top: 1.5em;
-  margin-bottom: 1em;
+  margin-top: 1em;
+  scroll-margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 h1 {
