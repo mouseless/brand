@@ -22,13 +22,13 @@
     tr {
       background-color: var(--color-bg);
 
-      &:nth-child(even) {
-        background-color: var(--color-bg-soft);
-      }
-
       &, td, th {
         border: none;
       }
+    }
+
+    thead tr, tbody tr:nth-child(even) {
+      background-color: var(--color-bg-soft);
     }
   }
 
