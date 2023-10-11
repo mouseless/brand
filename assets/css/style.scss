@@ -19,17 +19,16 @@
   }
 
   table {
+    border-radius: var(--border-radius);
+
     tr {
-      background: var(--color-bg);
-    }
+      th, &:nth-child(even) td {
+        background: var(--color-bg-soft);
+      }
 
-    tr:nth-child(2n) {
-      background: var(--color-bg-soft);
-    }
-
-    th, td {
-      border: 1px solid var(color--bg-soft);
-      border-radius: var(--border-radius);
+      th, td {
+        border: 1px solid var(--color--bg-soft);
+      }
     }
   }
 

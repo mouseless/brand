@@ -1,5 +1,3 @@
-# Mouseless Brand
-
 This repository contains all resources and usage details about Mouseless brand.
 For the original brandkit you can download [brandkit.fig](./brandkit.fig) or
 [brandkit.pdf](./brandkit.pdf).
