@@ -186,7 +186,7 @@ e.g., link and button hover states or selected items.
 
 We have `black`, `gray` and `white` tones as well as 5 main colors;
 
-| Color          | Code    | Image               |
+| Name           | Code    | Color               |
 | ---            | ---     | ---                 |
 | black-darkest  | #000000 | ![black-darkest][]  |
 | black          | #061819 | ![black][]          |
@@ -255,27 +255,6 @@ hoping to remind its roots and core values to a future mouseless developer.
 
 
 [logo-mark]: https://via.placeholder.com/20/fa465b/000000?text=+
-
-[black-darkest]: https://via.placeholder.com/20/000000/000000?text=+
-[black]: https://via.placeholder.com/20/061819/000000?text=+
-[black-lighter]: https://via.placeholder.com/20/092122/000000?text=+
-[black-lightest]: https://via.placeholder.com/20/163738/000000?text=+
-
-[gray-lightest]: https://via.placeholder.com/20/e9ecec/000000?text=+
-[gray]: https://via.placeholder.com/20/ced4d4/000000?text=+
-[gray-darker]: https://via.placeholder.com/20/b3bdbd/000000?text=+
-[gray-darkest]: https://via.placeholder.com/20/a2aeae/000000?text=+
-
-[white-lightest]: https://via.placeholder.com/20/ffffff/000000?text=+
-[white]: https://via.placeholder.com/20/f4f6f6/000000?text=+
-[white-darker]: https://via.placeholder.com/20/e4e7e7/000000?text=+
-[white-darkest]: https://via.placeholder.com/20/c8cfd0/000000?text=+
-
-[green]: https://via.placeholder.com/20/05ffc5/000000?text=+
-[blue]: https://via.placeholder.com/20/229aff/000000?text=+
-[red]: https://via.placeholder.com/20/ff3d3d/000000?text=+
-[orange]: https://via.placeholder.com/20/ffcb5c/000000?text=+
-[yellow]: https://via.placeholder.com/20/ffff82/000000?text=+
 
 [black-darkest]: https://via.placeholder.com/20/000000/000000?text=+
 [black]: https://via.placeholder.com/20/061819/000000?text=+
