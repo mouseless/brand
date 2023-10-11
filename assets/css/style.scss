@@ -19,13 +19,24 @@
   }
 
   table {
-    tr, tr:nth-child(2n) {
+    tr {
+      background: var(--color-bg);
+    }
+
+    tr:nth-child(2n) {
       background: var(--color-bg-soft);
+    }
+
+    th, td {
+      border: 1px solid var(color--bg-soft);
+      border-radius: var(--border-radius);
     }
   }
 
   .highlight pre, pre {
     background-color: var(--color-bg-box);
+    border-radius: var(--border-radius);
+    padding: var(--border-radius);
   }
 }
 
