@@ -179,11 +179,47 @@ whereas _black_ and _white_ badges can be used as status badges etc.
 
 ## Colors
 
-Primary brand color is ![](https://via.placeholder.com/20/F9465B/000000?text=+)
-`#F9465B` and we use black
-![](https://via.placeholder.com/20/000000/000000?text=+) `#000000` and white
-![](https://via.placeholder.com/20/FFFFFF/000000?text=+) `#FFFFFF` to create
-contrast.
+Primary brand color is ![logo-mark][] `#F9465B`. We use it in a minimal manner,
+e.g., link and button hover states or selected items.
+
+### Palette
+
+We have `black`, `gray` and `white` tones as well as 5 main colors;
+
+| Color          | Code    | Image               |
+| ---            | ---     | ---                 |
+| black-darkest  | #000000 | ![black-darkest][]  |
+| black          | #061819 | ![black][]          |
+| black-lighter  | #092122 | ![black-lighter][]  |
+| black-lightest | #163738 | ![black-lightest][] |
+| gray-lightest  | #E9ECEC | ![gray-lightest][]  |
+| gray           | #CED4D4 | ![gray][]           |
+| gray-darker    | #B3BDBD | ![gray-darker][]    |
+| gray-darkest   | #A2AEAE | ![gray-darkest][]   |
+| white-lightest | #FFFFFF | ![white-lightest][] |
+| white          | #F4F6F6 | ![white][]          |
+| white-darker   | #E4E7E7 | ![white-darker][]   |
+| white-darkest  | #C8CFD0 | ![white-darkest][]  |
+| green          | #05ffc5 | ![green][]          |
+| blue           | #229aff | ![blue][]           |
+| red            | #ff3d3d | ![red][]            |
+| orange         | #ffcb5c | ![orange][]         |
+| yellow         | #ffff82 | ![yellow][]         |
+
+### Theme - Primary
+
+Primary theme uses ![black][] `black` for background, ![gray][] `gray` for
+foreground and ![white-lightest][] `white-lightest` for headings.
+
+Box radius is `30px` and background is ![black-lighter][] `black-lighter`.
+
+### Theme - Secondary
+
+Primary theme uses ![white][] `white` for background, ![black][] `black` for
+foreground and ![black-lightest][] `black-lightest` for headings.
+
+Boxes are styled the same for this theme. So box radius is `30px` and background
+is ![black-lighter][] `black-lighter`.
 
 ### Inspiration
 
@@ -216,3 +252,48 @@ hoping to remind its roots and core values to a future mouseless developer.
 [lbms]: https://img.shields.io/badge/dynamic/style-mouseless-ffffff?style=for-the-badge&label=&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swXzEwMV8xNTE4IiBzdHlsZT0ibWFzay10eXBlOmFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiPgo8cGF0aCBkPSJNMTAgMEgyMFYxMEgxMFYwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTIwIDEwSDMwVjIwSDIwVjEwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTMwIDIwSDQwVjMwSDMwVjIwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTIwIDMwSDMwVjQwSDIwVjMwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTEwIDQwSDIwVjUwSDEwVjQwWiIgZmlsbD0id2hpdGUiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzEwMV8xNTE4KSI+CjxyZWN0IHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgZmlsbD0iI0Y5NDY1QiIvPgo8L2c+Cjwvc3ZnPgo=
 [lbmw]: https://img.shields.io/badge/dynamic/style-mouseless-000000?style=for-the-badge&label=&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swXzEwMV8xNTQxIiBzdHlsZT0ibWFzay10eXBlOmFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiPgo8cGF0aCBkPSJNMTAgMEgyMFYxMEgxMFYwWiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTIwIDEwSDMwVjIwSDIwVjEwWiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTMwIDIwSDQwVjMwSDMwVjIwWiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTIwIDMwSDMwVjQwSDIwVjMwWiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTEwIDQwSDIwVjUwSDEwVjQwWiIgZmlsbD0iYmxhY2siLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzEwMV8xNTQxKSI+CjxyZWN0IHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgZmlsbD0id2hpdGUiLz4KPC9nPgo8L3N2Zz4K
 [lbmb]: https://img.shields.io/badge/dynamic/style-mouseless-ffffff?style=for-the-badge&label=&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swXzEwMV8xNTM0IiBzdHlsZT0ibWFzay10eXBlOmFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiPgo8cGF0aCBkPSJNMTAgMEgyMFYxMEgxMFYwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTIwIDEwSDMwVjIwSDIwVjEwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTMwIDIwSDQwVjMwSDMwVjIwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTIwIDMwSDMwVjQwSDIwVjMwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTEwIDQwSDIwVjUwSDEwVjQwWiIgZmlsbD0id2hpdGUiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzEwMV8xNTM0KSI+CjxyZWN0IHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgZmlsbD0iYmxhY2siLz4KPC9nPgo8L3N2Zz4K
+
+
+[logo-mark]: https://via.placeholder.com/20/fa465b/000000?text=+
+
+[black-darkest]: https://via.placeholder.com/20/000000/000000?text=+
+[black]: https://via.placeholder.com/20/061819/000000?text=+
+[black-lighter]: https://via.placeholder.com/20/092122/000000?text=+
+[black-lightest]: https://via.placeholder.com/20/163738/000000?text=+
+
+[gray-lightest]: https://via.placeholder.com/20/e9ecec/000000?text=+
+[gray]: https://via.placeholder.com/20/ced4d4/000000?text=+
+[gray-darker]: https://via.placeholder.com/20/b3bdbd/000000?text=+
+[gray-darkest]: https://via.placeholder.com/20/a2aeae/000000?text=+
+
+[white-lightest]: https://via.placeholder.com/20/ffffff/000000?text=+
+[white]: https://via.placeholder.com/20/f4f6f6/000000?text=+
+[white-darker]: https://via.placeholder.com/20/e4e7e7/000000?text=+
+[white-darkest]: https://via.placeholder.com/20/c8cfd0/000000?text=+
+
+[green]: https://via.placeholder.com/20/05ffc5/000000?text=+
+[blue]: https://via.placeholder.com/20/229aff/000000?text=+
+[red]: https://via.placeholder.com/20/ff3d3d/000000?text=+
+[orange]: https://via.placeholder.com/20/ffcb5c/000000?text=+
+[yellow]: https://via.placeholder.com/20/ffff82/000000?text=+
+
+[black-darkest]: https://via.placeholder.com/20/000000/000000?text=+
+[black]: https://via.placeholder.com/20/061819/000000?text=+
+[black-lighter]: https://via.placeholder.com/20/092122/000000?text=+
+[black-lightest]: https://via.placeholder.com/20/163738/000000?text=+
+
+[gray-lightest]: https://via.placeholder.com/20/e9ecec/000000?text=+
+[gray]: https://via.placeholder.com/20/ced4d4/000000?text=+
+[gray-darker]: https://via.placeholder.com/20/b3bdbd/000000?text=+
+[gray-darkest]: https://via.placeholder.com/20/a2aeae/000000?text=+
+
+[white-lightest]: https://via.placeholder.com/20/ffffff/000000?text=+
+[white]: https://via.placeholder.com/20/f4f6f6/000000?text=+
+[white-darker]: https://via.placeholder.com/20/e4e7e7/000000?text=+
+[white-darkest]: https://via.placeholder.com/20/c8cfd0/000000?text=+
+
+[green]: https://via.placeholder.com/20/05ffc5/000000?text=+
+[blue]: https://via.placeholder.com/20/229aff/000000?text=+
+[red]: https://via.placeholder.com/20/ff3d3d/000000?text=+
+[orange]: https://via.placeholder.com/20/ffcb5c/000000?text=+
+[yellow]: https://via.placeholder.com/20/ffff82/000000?text=+
