@@ -4,18 +4,45 @@
 @import "{{ site.theme }}";
 
 .markdown-body {
-    table {
-        tr,
-        tr:nth-child(2n) {
-            background: #000;
-        }
+  font-family: var(--font-default);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+
+  h1, h2, h3, h4, h5, h6, th {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--color-logo-text);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    border: none;
+  }
+
+  table {
+    tr {
+      background-color: var(--color-bg);
+
+      &, td, th {
+        border: none;
+      }
     }
-    .highlight pre,
-    pre {
-        background-color: #1A1A1A;
+
+    thead tr, tbody tr:nth-child(even) {
+      background-color: var(--color-bg-soft);
     }
+  }
+
+  .highlight pre, pre {
+    background-color: var(--color-bg-box);
+    border-radius: var(--border-radius);
+    padding: var(--border-radius);
+  }
 }
 
 .highlight {
-    background-color: #000;
+    background-color: var(--color-bg);
+}
+
+.container-lg {
+  max-width: var(--width-content);
 }

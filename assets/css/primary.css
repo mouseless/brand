@@ -1,8 +1,15 @@
 @import url('root.css');
 
-body {
-  background-color: #000000;
-  color: #B3B3B3;
+:root {
+  --color-logo-text: var(--color-white-lightest);
+
+  --color-bg: var(--color-black);
+  --color-bg-soft: var(--color-black-lighter);
+  --color-bg-mute: var(--color-black-lightest);
+
+  --color-fg: var(--color-gray);
+  --color-fg-soft: var(--color-gray-darker);
+  --color-fg-mute: var(--color-gray-darkest);
 }
 
 img.mouseless:is(.logo),
@@ -14,14 +21,15 @@ img.mouseless:is(.logo:is(.short)) {
   content: url(../logo/svg/logo-short-primary.svg);
 }
 
-img.mouseless:is(.logo:is(.mark)) {
-  content: url(../logo/svg/logo-mark-primary.svg);
+img.mouseless:is(.logo:is(.mono)),
+img.mouseless:is(.logo:is(.full:is(.mono))) {
+  content: url(../logo/svg/logo-full-white.svg);
 }
 
-a {
-  color: #FA6B7C;
+img.mouseless:is(.logo:is(.short:is(.mono))) {
+  content: url(../logo/svg/logo-short-white.svg);
 }
 
-a:hover {
-  color: #F9465B;
+img.mouseless:is(.logo:is(.mark:is(.mono))) {
+  content: url(../logo/svg/logo-mark-white.svg);
 }
