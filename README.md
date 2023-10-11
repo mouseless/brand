@@ -69,10 +69,10 @@ Below are some examples;
 
 | Logo on backgrounds                  |
 | ---                                  |
-| ![](./.files/primary-on-color.png)   |
-| ![](./.files/secondary-on-color.png) |
-| ![](./.files/white-on-color.png)     |
-| ![](./.files/black-on-color.png)     |
+| ![](./assets/logo/sample/primary-on-color.png)   |
+| ![](./assets/logo/sample/secondary-on-color.png) |
+| ![](./assets/logo/sample/white-on-color.png)     |
+| ![](./assets/logo/sample/black-on-color.png)     |
 
 ### Finding a logo
 
