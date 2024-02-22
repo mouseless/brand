@@ -204,6 +204,10 @@ We have `black`, `gray` and `white` tones as well as 5 main colors;
 | orange         | #ffcb5c | ![orange][]         |
 | yellow         | #ffff82 | ![yellow][]         |
 
+> :warning:
+>
+> Colors will be shaded
+
 ### Theme - Primary
 
 Primary theme uses ![black][] `black` for background, ![gray][] `gray` for
