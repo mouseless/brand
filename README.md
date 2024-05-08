@@ -4,14 +4,12 @@ For the original brandkit you can download [brandkit.fig](./brandkit.fig) or
 
 ## The Story
 
-We are a software development collective centered around its experts who are
-dedicated to seek perfection in their work. We work slow but sure. And we see
-"what" as value for our customers and "how" as value for the collective itself.
+We are a software development collective connecting through the craft. We
+prioritize our people above all else, promoting open communication and
+efficiency. With this philosophy, our collective keeps its focus on its craft
+which eventually leads to excellence.
 
 Inspired from this vision, we named our collective as __Mouseless__.
-
-Our intention is to make everyone in the team use their mouse less, and
-preferably become a mouseless developer.
 
 ## Usage In Plain Text
 
@@ -65,8 +63,8 @@ and look nice. Below is a list of suggestions to achieve this;
 
 Below are some examples;
 
-| Logo on backgrounds                  |
-| ---                                  |
+| Logo on backgrounds                              |
+| ---                                              |
 | ![](./assets/logo/sample/primary-on-color.png)   |
 | ![](./assets/logo/sample/secondary-on-color.png) |
 | ![](./assets/logo/sample/white-on-color.png)     |
@@ -158,9 +156,11 @@ logo-watermark-short-black-0.225.svg
 logo-watermark-[form]-[color]-[opacity].svg
 ```
 
-> ⚠️  Don't use watermarks directly in html, because they are meant to be used
-> on existing photos or videos. There are also no `.png` exports available,
-> because of the same reason.
+> [!WARNING]
+>
+> Don't use watermarks directly in html, because they are meant to be used on
+> existing photos or videos. There are also no `.png` exports available, because
+> of the same reason.
 
 ## Badges
 
@@ -184,29 +184,22 @@ e.g., link and button hover states or selected items.
 
 We have `black`, `gray` and `white` tones as well as 5 main colors;
 
-| Name           | Code    | Color               |
-| ---            | ---     | ---                 |
-| black-darkest  | #000000 | ![black-darkest][]  |
-| black          | #061819 | ![black][]          |
-| black-lighter  | #092122 | ![black-lighter][]  |
-| black-lightest | #163738 | ![black-lightest][] |
-| gray-lightest  | #E9ECEC | ![gray-lightest][]  |
-| gray           | #CED4D4 | ![gray][]           |
-| gray-darker    | #B3BDBD | ![gray-darker][]    |
-| gray-darkest   | #A2AEAE | ![gray-darkest][]   |
-| white-lightest | #FFFFFF | ![white-lightest][] |
-| white          | #F4F6F6 | ![white][]          |
-| white-darker   | #E4E7E7 | ![white-darker][]   |
-| white-darkest  | #C8CFD0 | ![white-darkest][]  |
-| green          | #05ffc5 | ![green][]          |
-| blue           | #229aff | ![blue][]           |
-| red            | #ff3d3d | ![red][]            |
-| orange         | #ffcb5c | ![orange][]         |
-| yellow         | #ffff82 | ![yellow][]         |
-
-> :warning:
->
-> Colors will be shaded
+| Name      | 100       | 200       | 300       | 400       | 500       | 600       | 700       | 800       | 900       |
+| ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       |
+| red       | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+|           | ![r100][] | ![r200][] | ![r300][] | ![r400][] | ![r500][] | ![r600][] | ![r700][] | ![r800][] | ![r900][] |
+| darkgreen | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+|           | ![d100][] | ![d200][] | ![d300][] | ![d400][] | ![d500][] | ![d600][] | ![d700][] | ![d800][] | ![d900][] |
+| yellow    | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+|           | ![y100][] | ![y200][] | ![y300][] | ![y400][] | ![y500][] | ![y600][] | ![y700][] | ![y800][] | ![y900][] |
+| orange    | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+|           | ![o100][] | ![o200][] | ![o300][] | ![o400][] | ![o500][] | ![o600][] | ![o700][] | ![o800][] | ![o900][] |
+| blue      | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+|           | ![b100][] | ![b200][] | ![b300][] | ![b400][] | ![b500][] | ![b600][] | ![b700][] | ![b800][] | ![b900][] |
+| green     | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+|           | ![g100][] | ![g200][] | ![g300][] | ![g400][] | ![g500][] | ![g600][] | ![g700][] | ![g800][] | ![g900][] |
+| gray      | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+|           | ![a100][] | ![a200][] | ![a300][] | ![a400][] | ![a500][] | ![a600][] | ![a700][] | ![a800][] | ![a900][] |
 
 ### Theme - Primary
 
