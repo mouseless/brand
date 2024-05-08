@@ -196,12 +196,7 @@ We have 7 colors with 9 grades per color. You may also use regular black
 | gray      | ![a100][] | ![a200][] | ![a300][] | ![a400][] | ![a500][] | ![a600][] | ![a700][] | ![a800][] | ![a900][] |
 
 <details>
-
-<summary>
-
-Click to see color codes...
-
-</summary>
+<summary>Click to see color codes...</summary>
 
 | Name      | 100     | 200     | 300     | 400     | 500     | 600     | 700     | 800     | 900     |
 | ---       | ---     | ---     | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
