@@ -177,8 +177,8 @@ whereas _black_ and _white_ badges can be used as status badges etc.
 
 ## Colors
 
-Primary brand color is ![logo-mark][] `#F9465B`. We use it in a minimal manner,
-e.g., link and button hover states or selected items.
+Primary brand color is ![r500][] `#F9465B`. We use it in a minimal manner, e.g.,
+link and button hover states or selected items.
 
 ### Palette
 
@@ -186,19 +186,19 @@ We have `black`, `gray` and `white` tones as well as 5 main colors;
 
 | Name      | 100       | 200       | 300       | 400       | 500       | 600       | 700       | 800       | 900       |
 | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       |
-| red       | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+| red       | #FFEDEC   | #FFDAD9   | #FFB3B4   | #FF888D   | #FA465B   | #DF314A   | #BB1134   | #920024   | #680017   |
 |           | ![r100][] | ![r200][] | ![r300][] | ![r400][] | ![r500][] | ![r600][] | ![r700][] | ![r800][] | ![r900][] |
-| darkgreen | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+| darkgreen | #E6EFF0   | #B2CFD1   | #82AEB0   | #507D80   | #3B6F70   | #255759   | #154245   | #092C2E   | #031819   |
 |           | ![d100][] | ![d200][] | ![d300][] | ![d400][] | ![d500][] | ![d600][] | ![d700][] | ![d800][] | ![d900][] |
-| yellow    | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+| yellow    | #FAF8C8   | #FCF8A7   | #FAF478   | #E8E26F   | #D9D355   | #BCC45E   | #B2AE56   | #8C894D   | #666322   |
 |           | ![y100][] | ![y200][] | ![y300][] | ![y400][] | ![y500][] | ![y600][] | ![y700][] | ![y800][] | ![y900][] |
-| orange    | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+| orange    | #FFF3D9   | #FFE8B8   | #FFDE99   | #FFD478   | #FFC957   | #D9A941   | #B28930   | #8C6B22   | #664C14   |
 |           | ![o100][] | ![o200][] | ![o300][] | ![o400][] | ![o500][] | ![o600][] | ![o700][] | ![o800][] | ![o900][] |
-| blue      | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+| blue      | #E6EFF7   | #BAE0FF   | #87C8FF   | #54B1FF   | #229AFF   | #147FD9   | #0C67B2   | #004F91   | #003969   |
 |           | ![b100][] | ![b200][] | ![b300][] | ![b400][] | ![b500][] | ![b600][] | ![b700][] | ![b800][] | ![b900][] |
-| green     | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+| green     | #E2F6F2   | #C1F5E9   | #A3F7E4   | #82F5DA   | #61F2D1   | #52D1B4   | #42AD94   | #328A75   | #246657   |
 |           | ![g100][] | ![g200][] | ![g300][] | ![g400][] | ![g500][] | ![g600][] | ![g700][] | ![g800][] | ![g900][] |
-| gray      | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   | #000000   |
+| gray      | #F7F7F7   | #E9EBEB   | #D5DBDB   | #C4CCCC   | #B3BDBD   | #8D9494   | #666B6B   | #3F4242   | #18191A   |
 |           | ![a100][] | ![a200][] | ![a300][] | ![a400][] | ![a500][] | ![a600][] | ![a700][] | ![a800][] | ![a900][] |
 
 ### Theme - Primary
@@ -251,72 +251,75 @@ hoping to remind its roots and core values to a future mouseless developer.
 
 [logo-mark]: https://via.placeholder.com/20/fa465b/000000?text=+
 
-[r100]: https://via.placeholder.com/20/000000/000000?text=+
-[r200]: https://via.placeholder.com/20/000000/000000?text=+
-[r300]: https://via.placeholder.com/20/000000/000000?text=+
-[r400]: https://via.placeholder.com/20/000000/000000?text=+
-[r500]: https://via.placeholder.com/20/000000/000000?text=+
-[r600]: https://via.placeholder.com/20/000000/000000?text=+
-[r700]: https://via.placeholder.com/20/000000/000000?text=+
-[r800]: https://via.placeholder.com/20/000000/000000?text=+
-[r900]: https://via.placeholder.com/20/000000/000000?text=+
+[black]: https://via.placeholder.com/20/000000/000000?text=+
+[white]: https://via.placeholder.com/20/FFFFFF/000000?text=+
 
-[d100]: https://via.placeholder.com/20/000000/000000?text=+
-[d200]: https://via.placeholder.com/20/000000/000000?text=+
-[d300]: https://via.placeholder.com/20/000000/000000?text=+
-[d400]: https://via.placeholder.com/20/000000/000000?text=+
-[d500]: https://via.placeholder.com/20/000000/000000?text=+
-[d600]: https://via.placeholder.com/20/000000/000000?text=+
-[d700]: https://via.placeholder.com/20/000000/000000?text=+
-[d800]: https://via.placeholder.com/20/000000/000000?text=+
-[d900]: https://via.placeholder.com/20/000000/000000?text=+
+[r100]: https://via.placeholder.com/20/FFEDEC/000000?text=+
+[r200]: https://via.placeholder.com/20/FFDAD9/000000?text=+
+[r300]: https://via.placeholder.com/20/FFB3B4/000000?text=+
+[r400]: https://via.placeholder.com/20/FF888D/000000?text=+
+[r500]: https://via.placeholder.com/20/FA465B/000000?text=+
+[r600]: https://via.placeholder.com/20/DF314A/000000?text=+
+[r700]: https://via.placeholder.com/20/BB1134/000000?text=+
+[r800]: https://via.placeholder.com/20/920024/000000?text=+
+[r900]: https://via.placeholder.com/20/680017/000000?text=+
 
-[y100]: https://via.placeholder.com/20/000000/000000?text=+
-[y200]: https://via.placeholder.com/20/000000/000000?text=+
-[y300]: https://via.placeholder.com/20/000000/000000?text=+
-[y400]: https://via.placeholder.com/20/000000/000000?text=+
-[y500]: https://via.placeholder.com/20/000000/000000?text=+
-[y600]: https://via.placeholder.com/20/000000/000000?text=+
-[y700]: https://via.placeholder.com/20/000000/000000?text=+
-[y800]: https://via.placeholder.com/20/000000/000000?text=+
-[y900]: https://via.placeholder.com/20/000000/000000?text=+
+[d100]: https://via.placeholder.com/20/E6EFF0/000000?text=+
+[d200]: https://via.placeholder.com/20/B2CFD1/000000?text=+
+[d300]: https://via.placeholder.com/20/82AEB0/000000?text=+
+[d400]: https://via.placeholder.com/20/507D80/000000?text=+
+[d500]: https://via.placeholder.com/20/3B6F70/000000?text=+
+[d600]: https://via.placeholder.com/20/255759/000000?text=+
+[d700]: https://via.placeholder.com/20/154245/000000?text=+
+[d800]: https://via.placeholder.com/20/092C2E/000000?text=+
+[d900]: https://via.placeholder.com/20/031819/000000?text=+
 
-[o100]: https://via.placeholder.com/20/000000/000000?text=+
-[o200]: https://via.placeholder.com/20/000000/000000?text=+
-[o300]: https://via.placeholder.com/20/000000/000000?text=+
-[o400]: https://via.placeholder.com/20/000000/000000?text=+
-[o500]: https://via.placeholder.com/20/000000/000000?text=+
-[o600]: https://via.placeholder.com/20/000000/000000?text=+
-[o700]: https://via.placeholder.com/20/000000/000000?text=+
-[o800]: https://via.placeholder.com/20/000000/000000?text=+
-[o900]: https://via.placeholder.com/20/000000/000000?text=+
+[y100]: https://via.placeholder.com/20/FAF8C8/000000?text=+
+[y200]: https://via.placeholder.com/20/FCF8A7/000000?text=+
+[y300]: https://via.placeholder.com/20/FAF478/000000?text=+
+[y400]: https://via.placeholder.com/20/E8E26F/000000?text=+
+[y500]: https://via.placeholder.com/20/D9D355/000000?text=+
+[y600]: https://via.placeholder.com/20/BCC45E/000000?text=+
+[y700]: https://via.placeholder.com/20/B2AE56/000000?text=+
+[y800]: https://via.placeholder.com/20/8C894D/000000?text=+
+[y900]: https://via.placeholder.com/20/666322/000000?text=+
 
-[b100]: https://via.placeholder.com/20/000000/000000?text=+
-[b200]: https://via.placeholder.com/20/000000/000000?text=+
-[b300]: https://via.placeholder.com/20/000000/000000?text=+
-[b400]: https://via.placeholder.com/20/000000/000000?text=+
-[b500]: https://via.placeholder.com/20/000000/000000?text=+
-[b600]: https://via.placeholder.com/20/000000/000000?text=+
-[b700]: https://via.placeholder.com/20/000000/000000?text=+
-[b800]: https://via.placeholder.com/20/000000/000000?text=+
-[b900]: https://via.placeholder.com/20/000000/000000?text=+
+[o100]: https://via.placeholder.com/20/FFF3D9/000000?text=+
+[o200]: https://via.placeholder.com/20/FFE8B8/000000?text=+
+[o300]: https://via.placeholder.com/20/FFDE99/000000?text=+
+[o400]: https://via.placeholder.com/20/FFD478/000000?text=+
+[o500]: https://via.placeholder.com/20/FFC957/000000?text=+
+[o600]: https://via.placeholder.com/20/D9A941/000000?text=+
+[o700]: https://via.placeholder.com/20/B28930/000000?text=+
+[o800]: https://via.placeholder.com/20/8C6B22/000000?text=+
+[o900]: https://via.placeholder.com/20/664C14/000000?text=+
 
-[g100]: https://via.placeholder.com/20/000000/000000?text=+
-[g200]: https://via.placeholder.com/20/000000/000000?text=+
-[g300]: https://via.placeholder.com/20/000000/000000?text=+
-[g400]: https://via.placeholder.com/20/000000/000000?text=+
-[g500]: https://via.placeholder.com/20/000000/000000?text=+
-[g600]: https://via.placeholder.com/20/000000/000000?text=+
-[g700]: https://via.placeholder.com/20/000000/000000?text=+
-[g800]: https://via.placeholder.com/20/000000/000000?text=+
-[g900]: https://via.placeholder.com/20/000000/000000?text=+
+[b100]: https://via.placeholder.com/20/E6EFF7/000000?text=+
+[b200]: https://via.placeholder.com/20/BAE0FF/000000?text=+
+[b300]: https://via.placeholder.com/20/87C8FF/000000?text=+
+[b400]: https://via.placeholder.com/20/54B1FF/000000?text=+
+[b500]: https://via.placeholder.com/20/229AFF/000000?text=+
+[b600]: https://via.placeholder.com/20/147FD9/000000?text=+
+[b700]: https://via.placeholder.com/20/0C67B2/000000?text=+
+[b800]: https://via.placeholder.com/20/004F91/000000?text=+
+[b900]: https://via.placeholder.com/20/003969/000000?text=+
 
-[a100]: https://via.placeholder.com/20/000000/000000?text=+
-[a200]: https://via.placeholder.com/20/000000/000000?text=+
-[a300]: https://via.placeholder.com/20/000000/000000?text=+
-[a400]: https://via.placeholder.com/20/000000/000000?text=+
-[a500]: https://via.placeholder.com/20/000000/000000?text=+
-[a600]: https://via.placeholder.com/20/000000/000000?text=+
-[a700]: https://via.placeholder.com/20/000000/000000?text=+
-[a800]: https://via.placeholder.com/20/000000/000000?text=+
-[a900]: https://via.placeholder.com/20/000000/000000?text=+
+[g100]: https://via.placeholder.com/20/E2F6F2/000000?text=+
+[g200]: https://via.placeholder.com/20/C1F5E9/000000?text=+
+[g300]: https://via.placeholder.com/20/A3F7E4/000000?text=+
+[g400]: https://via.placeholder.com/20/82F5DA/000000?text=+
+[g500]: https://via.placeholder.com/20/61F2D1/000000?text=+
+[g600]: https://via.placeholder.com/20/52D1B4/000000?text=+
+[g700]: https://via.placeholder.com/20/42AD94/000000?text=+
+[g800]: https://via.placeholder.com/20/328A75/000000?text=+
+[g900]: https://via.placeholder.com/20/246657/000000?text=+
+
+[a100]: https://via.placeholder.com/20/F7F7F7/000000?text=+
+[a200]: https://via.placeholder.com/20/E9EBEB/000000?text=+
+[a300]: https://via.placeholder.com/20/D5DBDB/000000?text=+
+[a400]: https://via.placeholder.com/20/C4CCCC/000000?text=+
+[a500]: https://via.placeholder.com/20/B3BDBD/000000?text=+
+[a600]: https://via.placeholder.com/20/8D9494/000000?text=+
+[a700]: https://via.placeholder.com/20/666B6B/000000?text=+
+[a800]: https://via.placeholder.com/20/3F4242/000000?text=+
+[a900]: https://via.placeholder.com/20/18191A/000000?text=+
