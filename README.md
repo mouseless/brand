@@ -251,23 +251,72 @@ hoping to remind its roots and core values to a future mouseless developer.
 
 [logo-mark]: https://via.placeholder.com/20/fa465b/000000?text=+
 
-[black-darkest]: https://via.placeholder.com/20/000000/000000?text=+
-[black]: https://via.placeholder.com/20/061819/000000?text=+
-[black-lighter]: https://via.placeholder.com/20/092122/000000?text=+
-[black-lightest]: https://via.placeholder.com/20/163738/000000?text=+
+[r100]: https://via.placeholder.com/20/000000/000000?text=+
+[r200]: https://via.placeholder.com/20/000000/000000?text=+
+[r300]: https://via.placeholder.com/20/000000/000000?text=+
+[r400]: https://via.placeholder.com/20/000000/000000?text=+
+[r500]: https://via.placeholder.com/20/000000/000000?text=+
+[r600]: https://via.placeholder.com/20/000000/000000?text=+
+[r700]: https://via.placeholder.com/20/000000/000000?text=+
+[r800]: https://via.placeholder.com/20/000000/000000?text=+
+[r900]: https://via.placeholder.com/20/000000/000000?text=+
 
-[gray-lightest]: https://via.placeholder.com/20/e9ecec/000000?text=+
-[gray]: https://via.placeholder.com/20/ced4d4/000000?text=+
-[gray-darker]: https://via.placeholder.com/20/b3bdbd/000000?text=+
-[gray-darkest]: https://via.placeholder.com/20/a2aeae/000000?text=+
+[d100]: https://via.placeholder.com/20/000000/000000?text=+
+[d200]: https://via.placeholder.com/20/000000/000000?text=+
+[d300]: https://via.placeholder.com/20/000000/000000?text=+
+[d400]: https://via.placeholder.com/20/000000/000000?text=+
+[d500]: https://via.placeholder.com/20/000000/000000?text=+
+[d600]: https://via.placeholder.com/20/000000/000000?text=+
+[d700]: https://via.placeholder.com/20/000000/000000?text=+
+[d800]: https://via.placeholder.com/20/000000/000000?text=+
+[d900]: https://via.placeholder.com/20/000000/000000?text=+
 
-[white-lightest]: https://via.placeholder.com/20/ffffff/000000?text=+
-[white]: https://via.placeholder.com/20/f4f6f6/000000?text=+
-[white-darker]: https://via.placeholder.com/20/e4e7e7/000000?text=+
-[white-darkest]: https://via.placeholder.com/20/c8cfd0/000000?text=+
+[y100]: https://via.placeholder.com/20/000000/000000?text=+
+[y200]: https://via.placeholder.com/20/000000/000000?text=+
+[y300]: https://via.placeholder.com/20/000000/000000?text=+
+[y400]: https://via.placeholder.com/20/000000/000000?text=+
+[y500]: https://via.placeholder.com/20/000000/000000?text=+
+[y600]: https://via.placeholder.com/20/000000/000000?text=+
+[y700]: https://via.placeholder.com/20/000000/000000?text=+
+[y800]: https://via.placeholder.com/20/000000/000000?text=+
+[y900]: https://via.placeholder.com/20/000000/000000?text=+
 
-[green]: https://via.placeholder.com/20/05ffc5/000000?text=+
-[blue]: https://via.placeholder.com/20/229aff/000000?text=+
-[red]: https://via.placeholder.com/20/ff3d3d/000000?text=+
-[orange]: https://via.placeholder.com/20/ffcb5c/000000?text=+
-[yellow]: https://via.placeholder.com/20/ffff82/000000?text=+
+[o100]: https://via.placeholder.com/20/000000/000000?text=+
+[o200]: https://via.placeholder.com/20/000000/000000?text=+
+[o300]: https://via.placeholder.com/20/000000/000000?text=+
+[o400]: https://via.placeholder.com/20/000000/000000?text=+
+[o500]: https://via.placeholder.com/20/000000/000000?text=+
+[o600]: https://via.placeholder.com/20/000000/000000?text=+
+[o700]: https://via.placeholder.com/20/000000/000000?text=+
+[o800]: https://via.placeholder.com/20/000000/000000?text=+
+[o900]: https://via.placeholder.com/20/000000/000000?text=+
+
+[b100]: https://via.placeholder.com/20/000000/000000?text=+
+[b200]: https://via.placeholder.com/20/000000/000000?text=+
+[b300]: https://via.placeholder.com/20/000000/000000?text=+
+[b400]: https://via.placeholder.com/20/000000/000000?text=+
+[b500]: https://via.placeholder.com/20/000000/000000?text=+
+[b600]: https://via.placeholder.com/20/000000/000000?text=+
+[b700]: https://via.placeholder.com/20/000000/000000?text=+
+[b800]: https://via.placeholder.com/20/000000/000000?text=+
+[b900]: https://via.placeholder.com/20/000000/000000?text=+
+
+[g100]: https://via.placeholder.com/20/000000/000000?text=+
+[g200]: https://via.placeholder.com/20/000000/000000?text=+
+[g300]: https://via.placeholder.com/20/000000/000000?text=+
+[g400]: https://via.placeholder.com/20/000000/000000?text=+
+[g500]: https://via.placeholder.com/20/000000/000000?text=+
+[g600]: https://via.placeholder.com/20/000000/000000?text=+
+[g700]: https://via.placeholder.com/20/000000/000000?text=+
+[g800]: https://via.placeholder.com/20/000000/000000?text=+
+[g900]: https://via.placeholder.com/20/000000/000000?text=+
+
+[a100]: https://via.placeholder.com/20/000000/000000?text=+
+[a200]: https://via.placeholder.com/20/000000/000000?text=+
+[a300]: https://via.placeholder.com/20/000000/000000?text=+
+[a400]: https://via.placeholder.com/20/000000/000000?text=+
+[a500]: https://via.placeholder.com/20/000000/000000?text=+
+[a600]: https://via.placeholder.com/20/000000/000000?text=+
+[a700]: https://via.placeholder.com/20/000000/000000?text=+
+[a800]: https://via.placeholder.com/20/000000/000000?text=+
+[a900]: https://via.placeholder.com/20/000000/000000?text=+
