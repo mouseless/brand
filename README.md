@@ -180,13 +180,10 @@ whereas _black_ and _white_ badges can be used as status badges etc.
 Primary brand color is ![r500][] `#F9465B`. We use it in a minimal manner, e.g.,
 link and button hover states or selected items.
 
-<details>
-
-<summary>
-
 ### Palette
 
-We have 7 colors with 9 grades per color;
+We have 7 colors with 9 grades per color. You may also use regular black
+![black][] `#000000` and white ![white][] `#FFFFFF`.
 
 | Name      | 100       | 200       | 300       | 400       | 500       | 600       | 700       | 800       | 900       |
 | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       |
@@ -197,6 +194,12 @@ We have 7 colors with 9 grades per color;
 | blue      | ![b100][] | ![b200][] | ![b300][] | ![b400][] | ![b500][] | ![b600][] | ![b700][] | ![b800][] | ![b900][] |
 | green     | ![g100][] | ![g200][] | ![g300][] | ![g400][] | ![g500][] | ![g600][] | ![g700][] | ![g800][] | ![g900][] |
 | gray      | ![a100][] | ![a200][] | ![a300][] | ![a400][] | ![a500][] | ![a600][] | ![a700][] | ![a800][] | ![a900][] |
+
+<details>
+
+<summary>
+
+Click to see color codes...
 
 </summary>
 
