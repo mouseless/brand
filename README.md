@@ -107,7 +107,9 @@ logo-[form]-[color]-[height].png
 If existing exported files does not suit your need, you can use
 [brandkit.fig](./brandkit.fig) file to export a new one.
 
-> ℹ️  Logo is pixel compliant, so you can use a perfect logo even if you have 5
+> [!NOTE]
+>
+> Logo is pixel compliant, so you can use a perfect logo even if you have 5
 > pixels of height. On the other hand full logo may feel long, so you may use a
 > 5x5 mark form or a 17x5 short form.
 
@@ -177,13 +179,13 @@ whereas _black_ and _white_ badges can be used as status badges etc.
 
 ## Colors
 
-Primary brand color is ![r500][] `#F9465B`. We use it in a minimal manner, e.g.,
-link and button hover states or selected items.
+Primary brand color is `red-500` (![r500][] `#F9465B`). We use it in a minimal
+manner, e.g., link and button hover states or selected items.
 
 ### Palette
 
-We have 7 colors with 9 grades per color. You may also use regular black
-![black][] `#000000` and white ![white][] `#FFFFFF`.
+We have 7 colors with 9 grades per color. You may also use regular `black`
+(![black][] `#000000`) and `white` (![white][] `#FFFFFF`).
 
 | Name      | 100       | 200       | 300       | 400       | 500       | 600       | 700       | 800       | 900       |
 | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       |
@@ -212,18 +214,18 @@ We have 7 colors with 9 grades per color. You may also use regular black
 
 ### Theme - Primary
 
-Primary theme uses ![black][] `black` for background, ![gray][] `gray` for
-foreground and ![white-lightest][] `white-lightest` for headings.
+Primary theme uses ![d900][] `darkgreen-900` for background, ![g400][]
+`gray-400` for foreground and ![white][] `white` for headings.
 
-Box radius is `30px` and background is ![black-lighter][] `black-lighter`.
+Box radius is `30px` and background is ![d800][] `darkgreen-800`.
 
 ### Theme - Secondary
 
-Primary theme uses ![white][] `white` for background, ![black][] `black` for
-foreground and ![black-lightest][] `black-lightest` for headings.
+Primary theme uses ![g100][] `gray-100` for background, ![d900][]
+`darkgreen-900` for foreground and ![d700][] `darkgreen-700` for headings.
 
 Boxes are styled the same for this theme. So box radius is `30px` and background
-is ![black-lighter][] `black-lighter`.
+is ![d800][] `darkgreen-800`.
 
 ### Inspiration
 
