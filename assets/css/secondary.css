@@ -1,15 +1,15 @@
 @import url('root.css');
 
 :root {
-  --color-logo-text: var(--color-black-darkest);
+  --color-logo-text: var(--color-black);
 
-  --color-bg: var(--color-white);
-  --color-bg-soft: var(--color-white-darker);
-  --color-bg-mute: var(--color-white-darkest);
+  --color-bg: var(--color-gray-100);
+  --color-bg-soft: var(--color-gray-200);
+  --color-bg-mute: var(--color-gray-300);
 
-  --color-fg: var(--color-black);
-  --color-fg-soft: var(--color-black-lighter);
-  --color-fg-mute: var(--color-black-lightest);
+  --color-fg: var(--color-darkgreen-900);
+  --color-fg-soft: var(--color-darkgreen-800);
+  --color-fg-mute: var(--color-darkgreen-700);
 }
 
 img.mouseless:is(.logo),
@@ -17,8 +17,17 @@ img.mouseless:is(.logo:is(.full)) {
   content: url(../logo/svg/logo-full-secondary.svg);
 }
 
+img.mouseless:is(.logo:is(.invert:not(:is(.mark)))),
+img.mouseless:is(.logo:is(.invert:is(.full))) {
+  content: url(../logo/svg/logo-full-primary.svg);
+}
+
 img.mouseless:is(.logo:is(.short)) {
   content: url(../logo/svg/logo-short-secondary.svg);
+}
+
+img.mouseless:is(.logo:is(.invert:is(.short))) {
+  content: url(../logo/svg/logo-short-primary.svg);
 }
 
 img.mouseless:is(.logo:is(.mono)),
@@ -26,10 +35,23 @@ img.mouseless:is(.logo:is(.full:is(.mono))) {
   content: url(../logo/svg/logo-full-black.svg);
 }
 
+img.mouseless:is(.logo:is(.invert:is(.mono))),
+img.mouseless:is(.logo:is(.invert:is(.full:is(.mono)))) {
+  content: url(../logo/svg/logo-full-white.svg);
+}
+
 img.mouseless:is(.logo:is(.short:is(.mono))) {
   content: url(../logo/svg/logo-short-black.svg);
 }
 
+img.mouseless:is(.logo:is(.invert:is(.short:is(.mono)))) {
+  content: url(../logo/svg/logo-short-white.svg);
+}
+
 img.mouseless:is(.logo:is(.mark:is(.mono))) {
   content: url(../logo/svg/logo-mark-black.svg);
+}
+
+img.mouseless:is(.logo:is(.invert:is(.mark:is(.mono)))) {
+  content: url(../logo/svg/logo-mark-white.svg);
 }

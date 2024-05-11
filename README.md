@@ -222,7 +222,7 @@ Box radius is `30px` and background is ![d800][] `darkgreen-800`.
 ### Theme - Secondary
 
 Primary theme uses ![a100][] `gray-100` for background, ![d900][]
-`darkgreen-900` for foreground and ![d700][] `darkgreen-700` for headings.
+`darkgreen-900` for foreground and ![black][] `black` for headings.
 
 Boxes are styled the same for this theme. So box radius is `30px` and background
 is ![d800][] `darkgreen-800`.
