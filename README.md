@@ -214,14 +214,14 @@ We have 7 colors with 9 grades per color. You may also use regular `black`
 
 ### Theme - Primary
 
-Primary theme uses ![d900][] `darkgreen-900` for background, ![g400][]
+Primary theme uses ![d900][] `darkgreen-900` for background, ![a400][]
 `gray-400` for foreground and ![white][] `white` for headings.
 
 Box radius is `30px` and background is ![d800][] `darkgreen-800`.
 
 ### Theme - Secondary
 
-Primary theme uses ![g100][] `gray-100` for background, ![d900][]
+Primary theme uses ![a100][] `gray-100` for background, ![d900][]
 `darkgreen-900` for foreground and ![d700][] `darkgreen-700` for headings.
 
 Boxes are styled the same for this theme. So box radius is `30px` and background
