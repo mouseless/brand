@@ -217,20 +217,23 @@ We have 7 colors with 9 grades per color. You may also use regular `black`
 Primary theme uses ![d900][] `darkgreen-900` for background, ![a400][]
 `gray-400` for foreground and ![white][] `white` for headings.
 
-Box radius is `30px` and background is ![d800][] `darkgreen-800`.
+> [!NOTE]
+>
+> Use ![d800][] `darkgreen-800` for box backgrounds.
 
 ### Theme - Secondary
 
 Primary theme uses ![a100][] `gray-100` for background, ![d900][]
 `darkgreen-900` for foreground and ![black][] `black` for headings.
 
-Boxes are styled the same for this theme. So box radius is `30px` and background
-is ![d800][] `darkgreen-800`.
+> [!WARNING]
+>
+> Boxes are styled the same as primary theme.
 
 ### Inspiration
 
-Mouseless is founded by [Cihan Deniz](https://github.com/cihandeniz) to create
-a collective where developers can join and perform their craft with passion.
+Mouseless is founded by [Cihan Deniz](https://github.com/cihandeniz) to create a
+collective where developers can join and perform their craft with passion.
 Without being certain of what this collective may become in the future,
 Mouseless brand uses the same color as [GC
 Brains](https://github.com/gcbrains/brand#colors) to leave a mark in the brand
