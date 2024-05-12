@@ -4,14 +4,12 @@ For the original brandkit you can download [brandkit.fig](./brandkit.fig) or
 
 ## The Story
 
-We are a software development collective centered around its experts who are
-dedicated to seek perfection in their work. We work slow but sure. And we see
-"what" as value for our customers and "how" as value for the collective itself.
+We are a software development collective connecting through the craft. We
+prioritize our people above all else, promoting open communication and
+efficiency. With this philosophy, our collective keeps its focus on its craft
+which eventually leads to excellence.
 
 Inspired from this vision, we named our collective as __Mouseless__.
-
-Our intention is to make everyone in the team use their mouse less, and
-preferably become a mouseless developer.
 
 ## Usage In Plain Text
 
@@ -65,8 +63,8 @@ and look nice. Below is a list of suggestions to achieve this;
 
 Below are some examples;
 
-| Logo on backgrounds                  |
-| ---                                  |
+| Logo on backgrounds                              |
+| ---                                              |
 | ![](./assets/logo/sample/primary-on-color.png)   |
 | ![](./assets/logo/sample/secondary-on-color.png) |
 | ![](./assets/logo/sample/white-on-color.png)     |
@@ -109,7 +107,9 @@ logo-[form]-[color]-[height].png
 If existing exported files does not suit your need, you can use
 [brandkit.fig](./brandkit.fig) file to export a new one.
 
-> ℹ️  Logo is pixel compliant, so you can use a perfect logo even if you have 5
+> [!NOTE]
+>
+> Logo is pixel compliant, so you can use a perfect logo even if you have 5
 > pixels of height. On the other hand full logo may feel long, so you may use a
 > 5x5 mark form or a 17x5 short form.
 
@@ -158,9 +158,11 @@ logo-watermark-short-black-0.225.svg
 logo-watermark-[form]-[color]-[opacity].svg
 ```
 
-> ⚠️  Don't use watermarks directly in html, because they are meant to be used
-> on existing photos or videos. There are also no `.png` exports available,
-> because of the same reason.
+> [!WARNING]
+>
+> Don't use watermarks directly in html, because they are meant to be used on
+> existing photos or videos. There are also no `.png` exports available, because
+> of the same reason.
 
 ## Badges
 
@@ -177,52 +179,61 @@ whereas _black_ and _white_ badges can be used as status badges etc.
 
 ## Colors
 
-Primary brand color is ![logo-mark][] `#F9465B`. We use it in a minimal manner,
-e.g., link and button hover states or selected items.
+Primary brand color is `red-500` (![r500][] `#F9465B`). We use it in a minimal
+manner, e.g., link and button hover states or selected items.
 
 ### Palette
 
-We have `black`, `gray` and `white` tones as well as 5 main colors;
+We have 7 colors with 9 grades per color. You may also use regular `black`
+(![black][] `#000000`) and `white` (![white][] `#FFFFFF`).
 
-| Name           | Code    | Color               |
-| ---            | ---     | ---                 |
-| black-darkest  | #000000 | ![black-darkest][]  |
-| black          | #061819 | ![black][]          |
-| black-lighter  | #092122 | ![black-lighter][]  |
-| black-lightest | #163738 | ![black-lightest][] |
-| gray-lightest  | #E9ECEC | ![gray-lightest][]  |
-| gray           | #CED4D4 | ![gray][]           |
-| gray-darker    | #B3BDBD | ![gray-darker][]    |
-| gray-darkest   | #A2AEAE | ![gray-darkest][]   |
-| white-lightest | #FFFFFF | ![white-lightest][] |
-| white          | #F4F6F6 | ![white][]          |
-| white-darker   | #E4E7E7 | ![white-darker][]   |
-| white-darkest  | #C8CFD0 | ![white-darkest][]  |
-| green          | #05ffc5 | ![green][]          |
-| blue           | #229aff | ![blue][]           |
-| red            | #ff3d3d | ![red][]            |
-| orange         | #ffcb5c | ![orange][]         |
-| yellow         | #ffff82 | ![yellow][]         |
+| Name      | 100       | 200       | 300       | 400       | 500       | 600       | 700       | 800       | 900       |
+| ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       | ---       |
+| red       | ![r100][] | ![r200][] | ![r300][] | ![r400][] | ![r500][] | ![r600][] | ![r700][] | ![r800][] | ![r900][] |
+| darkgreen | ![d100][] | ![d200][] | ![d300][] | ![d400][] | ![d500][] | ![d600][] | ![d700][] | ![d800][] | ![d900][] |
+| yellow    | ![y100][] | ![y200][] | ![y300][] | ![y400][] | ![y500][] | ![y600][] | ![y700][] | ![y800][] | ![y900][] |
+| orange    | ![o100][] | ![o200][] | ![o300][] | ![o400][] | ![o500][] | ![o600][] | ![o700][] | ![o800][] | ![o900][] |
+| blue      | ![b100][] | ![b200][] | ![b300][] | ![b400][] | ![b500][] | ![b600][] | ![b700][] | ![b800][] | ![b900][] |
+| green     | ![g100][] | ![g200][] | ![g300][] | ![g400][] | ![g500][] | ![g600][] | ![g700][] | ![g800][] | ![g900][] |
+| gray      | ![a100][] | ![a200][] | ![a300][] | ![a400][] | ![a500][] | ![a600][] | ![a700][] | ![a800][] | ![a900][] |
+
+<details>
+<summary>Click to see color codes...</summary>
+
+| Name      | 100     | 200     | 300     | 400     | 500     | 600     | 700     | 800     | 900     |
+| ---       | ---     | ---     | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
+| red       | #FFEDEC | #FFDAD9 | #FFB3B4 | #FF888D | #FA465B | #DF314A | #BB1134 | #920024 | #680017 |
+| darkgreen | #E6EFF0 | #B2CFD1 | #82AEB0 | #507D80 | #3B6F70 | #255759 | #154245 | #092C2E | #031819 |
+| yellow    | #FAF8C8 | #FCF8A7 | #FAF478 | #E8E26F | #D9D355 | #BCC45E | #B2AE56 | #8C894D | #666322 |
+| orange    | #FFF3D9 | #FFE8B8 | #FFDE99 | #FFD478 | #FFC957 | #D9A941 | #B28930 | #8C6B22 | #664C14 |
+| blue      | #E6EFF7 | #BAE0FF | #87C8FF | #54B1FF | #229AFF | #147FD9 | #0C67B2 | #004F91 | #003969 |
+| green     | #E2F6F2 | #C1F5E9 | #A3F7E4 | #82F5DA | #61F2D1 | #52D1B4 | #42AD94 | #328A75 | #246657 |
+| gray      | #F7F7F7 | #E9EBEB | #D5DBDB | #C4CCCC | #B3BDBD | #8D9494 | #666B6B | #3F4242 | #18191A |
+
+</details>
 
 ### Theme - Primary
 
-Primary theme uses ![black][] `black` for background, ![gray][] `gray` for
-foreground and ![white-lightest][] `white-lightest` for headings.
+Primary theme uses ![d900][] `darkgreen-900` for background, ![a400][]
+`gray-400` for foreground and ![white][] `white` for headings.
 
-Box radius is `30px` and background is ![black-lighter][] `black-lighter`.
+> [!NOTE]
+>
+> Use ![d800][] `darkgreen-800` for box backgrounds.
 
 ### Theme - Secondary
 
-Primary theme uses ![white][] `white` for background, ![black][] `black` for
-foreground and ![black-lightest][] `black-lightest` for headings.
+Primary theme uses ![a100][] `gray-100` for background, ![d900][]
+`darkgreen-900` for foreground and ![black][] `black` for headings.
 
-Boxes are styled the same for this theme. So box radius is `30px` and background
-is ![black-lighter][] `black-lighter`.
+> [!WARNING]
+>
+> Boxes are styled the same as primary theme.
 
 ### Inspiration
 
-Mouseless is founded by [Cihan Deniz](https://github.com/cihandeniz) to create
-a collective where developers can join and perform their craft with passion.
+Mouseless is founded by [Cihan Deniz](https://github.com/cihandeniz) to create a
+collective where developers can join and perform their craft with passion.
 Without being certain of what this collective may become in the future,
 Mouseless brand uses the same color as [GC
 Brains](https://github.com/gcbrains/brand#colors) to leave a mark in the brand
@@ -254,23 +265,75 @@ hoping to remind its roots and core values to a future mouseless developer.
 
 [logo-mark]: https://via.placeholder.com/20/fa465b/000000?text=+
 
-[black-darkest]: https://via.placeholder.com/20/000000/000000?text=+
-[black]: https://via.placeholder.com/20/061819/000000?text=+
-[black-lighter]: https://via.placeholder.com/20/092122/000000?text=+
-[black-lightest]: https://via.placeholder.com/20/163738/000000?text=+
+[black]: https://via.placeholder.com/20/000000/000000?text=+
+[white]: https://via.placeholder.com/20/FFFFFF/000000?text=+
 
-[gray-lightest]: https://via.placeholder.com/20/e9ecec/000000?text=+
-[gray]: https://via.placeholder.com/20/ced4d4/000000?text=+
-[gray-darker]: https://via.placeholder.com/20/b3bdbd/000000?text=+
-[gray-darkest]: https://via.placeholder.com/20/a2aeae/000000?text=+
+[r100]: https://via.placeholder.com/20/FFEDEC/000000?text=+
+[r200]: https://via.placeholder.com/20/FFDAD9/000000?text=+
+[r300]: https://via.placeholder.com/20/FFB3B4/000000?text=+
+[r400]: https://via.placeholder.com/20/FF888D/000000?text=+
+[r500]: https://via.placeholder.com/20/FA465B/000000?text=+
+[r600]: https://via.placeholder.com/20/DF314A/000000?text=+
+[r700]: https://via.placeholder.com/20/BB1134/000000?text=+
+[r800]: https://via.placeholder.com/20/920024/000000?text=+
+[r900]: https://via.placeholder.com/20/680017/000000?text=+
 
-[white-lightest]: https://via.placeholder.com/20/ffffff/000000?text=+
-[white]: https://via.placeholder.com/20/f4f6f6/000000?text=+
-[white-darker]: https://via.placeholder.com/20/e4e7e7/000000?text=+
-[white-darkest]: https://via.placeholder.com/20/c8cfd0/000000?text=+
+[d100]: https://via.placeholder.com/20/E6EFF0/000000?text=+
+[d200]: https://via.placeholder.com/20/B2CFD1/000000?text=+
+[d300]: https://via.placeholder.com/20/82AEB0/000000?text=+
+[d400]: https://via.placeholder.com/20/507D80/000000?text=+
+[d500]: https://via.placeholder.com/20/3B6F70/000000?text=+
+[d600]: https://via.placeholder.com/20/255759/000000?text=+
+[d700]: https://via.placeholder.com/20/154245/000000?text=+
+[d800]: https://via.placeholder.com/20/092C2E/000000?text=+
+[d900]: https://via.placeholder.com/20/031819/000000?text=+
 
-[green]: https://via.placeholder.com/20/05ffc5/000000?text=+
-[blue]: https://via.placeholder.com/20/229aff/000000?text=+
-[red]: https://via.placeholder.com/20/ff3d3d/000000?text=+
-[orange]: https://via.placeholder.com/20/ffcb5c/000000?text=+
-[yellow]: https://via.placeholder.com/20/ffff82/000000?text=+
+[y100]: https://via.placeholder.com/20/FAF8C8/000000?text=+
+[y200]: https://via.placeholder.com/20/FCF8A7/000000?text=+
+[y300]: https://via.placeholder.com/20/FAF478/000000?text=+
+[y400]: https://via.placeholder.com/20/E8E26F/000000?text=+
+[y500]: https://via.placeholder.com/20/D9D355/000000?text=+
+[y600]: https://via.placeholder.com/20/BCC45E/000000?text=+
+[y700]: https://via.placeholder.com/20/B2AE56/000000?text=+
+[y800]: https://via.placeholder.com/20/8C894D/000000?text=+
+[y900]: https://via.placeholder.com/20/666322/000000?text=+
+
+[o100]: https://via.placeholder.com/20/FFF3D9/000000?text=+
+[o200]: https://via.placeholder.com/20/FFE8B8/000000?text=+
+[o300]: https://via.placeholder.com/20/FFDE99/000000?text=+
+[o400]: https://via.placeholder.com/20/FFD478/000000?text=+
+[o500]: https://via.placeholder.com/20/FFC957/000000?text=+
+[o600]: https://via.placeholder.com/20/D9A941/000000?text=+
+[o700]: https://via.placeholder.com/20/B28930/000000?text=+
+[o800]: https://via.placeholder.com/20/8C6B22/000000?text=+
+[o900]: https://via.placeholder.com/20/664C14/000000?text=+
+
+[b100]: https://via.placeholder.com/20/E6EFF7/000000?text=+
+[b200]: https://via.placeholder.com/20/BAE0FF/000000?text=+
+[b300]: https://via.placeholder.com/20/87C8FF/000000?text=+
+[b400]: https://via.placeholder.com/20/54B1FF/000000?text=+
+[b500]: https://via.placeholder.com/20/229AFF/000000?text=+
+[b600]: https://via.placeholder.com/20/147FD9/000000?text=+
+[b700]: https://via.placeholder.com/20/0C67B2/000000?text=+
+[b800]: https://via.placeholder.com/20/004F91/000000?text=+
+[b900]: https://via.placeholder.com/20/003969/000000?text=+
+
+[g100]: https://via.placeholder.com/20/E2F6F2/000000?text=+
+[g200]: https://via.placeholder.com/20/C1F5E9/000000?text=+
+[g300]: https://via.placeholder.com/20/A3F7E4/000000?text=+
+[g400]: https://via.placeholder.com/20/82F5DA/000000?text=+
+[g500]: https://via.placeholder.com/20/61F2D1/000000?text=+
+[g600]: https://via.placeholder.com/20/52D1B4/000000?text=+
+[g700]: https://via.placeholder.com/20/42AD94/000000?text=+
+[g800]: https://via.placeholder.com/20/328A75/000000?text=+
+[g900]: https://via.placeholder.com/20/246657/000000?text=+
+
+[a100]: https://via.placeholder.com/20/F7F7F7/000000?text=+
+[a200]: https://via.placeholder.com/20/E9EBEB/000000?text=+
+[a300]: https://via.placeholder.com/20/D5DBDB/000000?text=+
+[a400]: https://via.placeholder.com/20/C4CCCC/000000?text=+
+[a500]: https://via.placeholder.com/20/B3BDBD/000000?text=+
+[a600]: https://via.placeholder.com/20/8D9494/000000?text=+
+[a700]: https://via.placeholder.com/20/666B6B/000000?text=+
+[a800]: https://via.placeholder.com/20/3F4242/000000?text=+
+[a900]: https://via.placeholder.com/20/18191A/000000?text=+

@@ -1,15 +1,86 @@
 @import url('root.css');
 
 :root {
-  --color-logo-text: var(--color-white-lightest);
+  --color-logo-text: var(--color-white);
 
-  --color-bg: var(--color-black);
-  --color-bg-soft: var(--color-black-lighter);
-  --color-bg-mute: var(--color-black-lightest);
+  --color-bg: var(--color-darkgreen-900);
+  --color-bg-soft: var(--color-darkgreen-800);
+  --color-bg-mute: var(--color-darkgreen-700);
 
-  --color-fg: var(--color-gray);
-  --color-fg-soft: var(--color-gray-darker);
-  --color-fg-mute: var(--color-gray-darkest);
+  --color-fg: var(--color-gray-400);
+  --color-fg-soft: var(--color-gray-500);
+  --color-fg-mute: var(--color-gray-600);
+
+  --color-red-n4: var(--color-red-100);
+  --color-red-n3: var(--color-red-200);
+  --color-red-n2: var(--color-red-300);
+  --color-red-n1: var(--color-red-400);
+  --color-red-0: var(--color-red-500);
+  --color-red-p1: var(--color-red-600);
+  --color-red-p2: var(--color-red-700);
+  --color-red-p3: var(--color-red-800);
+  --color-red-p4: var(--color-red-900);
+  --color-red-p5: var(--color-black);
+
+  --color-darkgreen-n4: var(--color-darkgreen-100);
+  --color-darkgreen-n3: var(--color-darkgreen-200);
+  --color-darkgreen-n2: var(--color-darkgreen-300);
+  --color-darkgreen-n1: var(--color-darkgreen-400);
+  --color-darkgreen-0: var(--color-darkgreen-500);
+  --color-darkgreen-p1: var(--color-darkgreen-600);
+  --color-darkgreen-p2: var(--color-darkgreen-700);
+  --color-darkgreen-p3: var(--color-darkgreen-800);
+  --color-darkgreen-p4: var(--color-darkgreen-900);
+
+  --color-yellow-n4: var(--color-yellow-100);
+  --color-yellow-n3: var(--color-yellow-200);
+  --color-yellow-n2: var(--color-yellow-300);
+  --color-yellow-n1: var(--color-yellow-400);
+  --color-yellow-0: var(--color-yellow-500);
+  --color-yellow-p1: var(--color-yellow-600);
+  --color-yellow-p2: var(--color-yellow-700);
+  --color-yellow-p3: var(--color-yellow-800);
+  --color-yellow-p4: var(--color-yellow-900);
+
+  --color-orange-n4: var(--color-orange-100);
+  --color-orange-n3: var(--color-orange-200);
+  --color-orange-n2: var(--color-orange-300);
+  --color-orange-n1: var(--color-orange-400);
+  --color-orange-0: var(--color-orange-500);
+  --color-orange-p1: var(--color-orange-600);
+  --color-orange-p2: var(--color-orange-700);
+  --color-orange-p3: var(--color-orange-800);
+  --color-orange-p4: var(--color-orange-900);
+
+  --color-blue-n4: var(--color-blue-100);
+  --color-blue-n3: var(--color-blue-200);
+  --color-blue-n2: var(--color-blue-300);
+  --color-blue-n1: var(--color-blue-400);
+  --color-blue-0: var(--color-blue-500);
+  --color-blue-p1: var(--color-blue-600);
+  --color-blue-p2: var(--color-blue-700);
+  --color-blue-p3: var(--color-blue-800);
+  --color-blue-p4: var(--color-blue-900);
+
+  --color-green-n4: var(--color-green-100);
+  --color-green-n3: var(--color-green-200);
+  --color-green-n2: var(--color-green-300);
+  --color-green-n1: var(--color-green-400);
+  --color-green-0: var(--color-green-500);
+  --color-green-p1: var(--color-green-600);
+  --color-green-p2: var(--color-green-700);
+  --color-green-p3: var(--color-green-800);
+  --color-green-p4: var(--color-green-900);
+
+  --color-gray-n4: var(--color-gray-100);
+  --color-gray-n3: var(--color-gray-200);
+  --color-gray-n2: var(--color-gray-300);
+  --color-gray-n1: var(--color-gray-400);
+  --color-gray-0: var(--color-gray-500);
+  --color-gray-p1: var(--color-gray-600);
+  --color-gray-p2: var(--color-gray-700);
+  --color-gray-p3: var(--color-gray-800);
+  --color-gray-p4: var(--color-gray-900);
 }
 
 img.mouseless:is(.logo),
@@ -17,8 +88,17 @@ img.mouseless:is(.logo:is(.full)) {
   content: url(../logo/svg/logo-full-primary.svg);
 }
 
+img.mouseless:is(.logo:is(.invert:not(:is(.mark)))),
+img.mouseless:is(.logo:is(.invert:is(.full))) {
+  content: url(../logo/svg/logo-full-secondary.svg);
+}
+
 img.mouseless:is(.logo:is(.short)) {
   content: url(../logo/svg/logo-short-primary.svg);
+}
+
+img.mouseless:is(.logo:is(.invert:is(.short))) {
+  content: url(../logo/svg/logo-short-secondary.svg);
 }
 
 img.mouseless:is(.logo:is(.mono)),
@@ -26,10 +106,23 @@ img.mouseless:is(.logo:is(.full:is(.mono))) {
   content: url(../logo/svg/logo-full-white.svg);
 }
 
+img.mouseless:is(.logo:is(.invert:is(.mono))),
+img.mouseless:is(.logo:is(.invert:is(.full:is(.mono)))) {
+  content: url(../logo/svg/logo-full-black.svg);
+}
+
 img.mouseless:is(.logo:is(.short:is(.mono))) {
   content: url(../logo/svg/logo-short-white.svg);
 }
 
+img.mouseless:is(.logo:is(.invert:is(.short:is(.mono)))) {
+  content: url(../logo/svg/logo-short-black.svg);
+}
+
 img.mouseless:is(.logo:is(.mark:is(.mono))) {
   content: url(../logo/svg/logo-mark-white.svg);
+}
+
+img.mouseless:is(.logo:is(.invert:is(.mark:is(.mono)))) {
+  content: url(../logo/svg/logo-mark-black.svg);
 }
