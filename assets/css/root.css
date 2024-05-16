@@ -85,7 +85,7 @@
   --space-sm: 1em;
   --space-md: 3em;
   --space-lg: 5em;
-  --space-xl: 8em;
+  --space-xl: 7em;
 
   --border-radius: var(--space-md);
 }
@@ -179,11 +179,11 @@ pre {
   }
 }
 
-.f--xs { font-size: x-small; }
-.f--sm { font-size: small; }
-.f--md { font-size: medium; }
-.f--lg { font-size: large; }
-.f--xl { font-size: x-large; }
+.f--xl { font-size: 1.5em; }
+.f--lg { font-size: 1.25em; }
+.f--md { font-size: 1em; }
+.f--sm { font-size: 0.875em; }
+.f--xs { font-size: 0.75em; }
 
 .c--fg_red-n4 { color: var(--color-red-n4); }
 .c--fg_red-n3 { color: var(--color-red-n3); }
