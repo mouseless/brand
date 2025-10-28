@@ -72,8 +72,8 @@
   --color-bg-box: var(--color-darkgreen-800);
   --color-fg-box: var(--color-gray-400);
 
-  --font-default: 'Roboto Mono', monospace;
-  --font-heading: 'DM Sans', sans-serif;
+  --font-default: system-ui;
+  --font-heading: monospace;
   --font-size: 14px;
   --line-height: 1.75;
 
@@ -87,7 +87,7 @@
   --space-lg: 5em;
   --space-xl: 7em;
 
-  --border-radius: var(--space-md);
+  --border-radius: var(--space-sm);
 }
 
 body {
@@ -146,13 +146,13 @@ p, ul, ol {
 }
 
 ul, ol {
-  padding-inline-start: var(--space-md);
-  max-width: calc(var(--width-content) - var(--space-md));
+  padding-inline-start: var(--space-sm);
+  max-width: calc(var(--width-content) - var(--space-sm));
 }
 
 blockquote {
-  max-width: calc(var(--width-content) - var(--space-md));
-  margin-inline-start: var(--space-md);
+  max-width: calc(var(--width-content) - var(--space-sm));
+  margin-inline-start: var(--space-sm);
   margin-inline-end: 0;
 }
 

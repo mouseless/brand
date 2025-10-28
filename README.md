@@ -215,7 +215,7 @@ We have 7 colors with 9 grades per color. You may also use regular `black`
 ### Theme - Primary
 
 Primary theme uses ![d900][] `darkgreen-900` for background, ![a400][]
-`gray-400` for foreground and ![white][] `white` for headings.
+`gray-500` for foreground and ![a400][] `gray-400` for headings.
 
 > [!NOTE]
 >
@@ -263,77 +263,77 @@ hoping to remind its roots and core values to a future mouseless developer.
 [lbmb]: https://img.shields.io/badge/dynamic/style-mouseless-ffffff?style=for-the-badge&label=&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swXzEwMV8xNTM0IiBzdHlsZT0ibWFzay10eXBlOmFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiPgo8cGF0aCBkPSJNMTAgMEgyMFYxMEgxMFYwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTIwIDEwSDMwVjIwSDIwVjEwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTMwIDIwSDQwVjMwSDMwVjIwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTIwIDMwSDMwVjQwSDIwVjMwWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTEwIDQwSDIwVjUwSDEwVjQwWiIgZmlsbD0id2hpdGUiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzEwMV8xNTM0KSI+CjxyZWN0IHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgZmlsbD0iYmxhY2siLz4KPC9nPgo8L3N2Zz4K
 
 
-[logo-mark]: https://via.placeholder.com/20/fa465b/000000?text=+
+[logo-mark]: https://placehold.co/20x20/fa465b/fa465b?text=.
 
-[black]: https://via.placeholder.com/20/000000/000000?text=+
-[white]: https://via.placeholder.com/20/FFFFFF/000000?text=+
+[black]: https://placehold.co/20x20/000000/000000?text=.
+[white]: https://placehold.co/20x20/FFFFFF/FFFFFF?text=.
 
-[r100]: https://via.placeholder.com/20/FFEDEC/000000?text=+
-[r200]: https://via.placeholder.com/20/FFDAD9/000000?text=+
-[r300]: https://via.placeholder.com/20/FFB3B4/000000?text=+
-[r400]: https://via.placeholder.com/20/FF888D/000000?text=+
-[r500]: https://via.placeholder.com/20/FA465B/000000?text=+
-[r600]: https://via.placeholder.com/20/DF314A/000000?text=+
-[r700]: https://via.placeholder.com/20/BB1134/000000?text=+
-[r800]: https://via.placeholder.com/20/920024/000000?text=+
-[r900]: https://via.placeholder.com/20/680017/000000?text=+
+[r100]: https://placehold.co/20x20/FFEDEC/FFEDEC?text=.
+[r200]: https://placehold.co/20x20/FFDAD9/FFDAD9?text=.
+[r300]: https://placehold.co/20x20/FFB3B4/FFB3B4?text=.
+[r400]: https://placehold.co/20x20/FF888D/FF888D?text=.
+[r500]: https://placehold.co/20x20/FA465B/FA465B?text=.
+[r600]: https://placehold.co/20x20/DF314A/DF314A?text=.
+[r700]: https://placehold.co/20x20/BB1134/BB1134?text=.
+[r800]: https://placehold.co/20x20/920024/920024?text=.
+[r900]: https://placehold.co/20x20/680017/680017?text=.
 
-[d100]: https://via.placeholder.com/20/E6EFF0/000000?text=+
-[d200]: https://via.placeholder.com/20/B2CFD1/000000?text=+
-[d300]: https://via.placeholder.com/20/82AEB0/000000?text=+
-[d400]: https://via.placeholder.com/20/507D80/000000?text=+
-[d500]: https://via.placeholder.com/20/3B6F70/000000?text=+
-[d600]: https://via.placeholder.com/20/255759/000000?text=+
-[d700]: https://via.placeholder.com/20/154245/000000?text=+
-[d800]: https://via.placeholder.com/20/092C2E/000000?text=+
-[d900]: https://via.placeholder.com/20/031819/000000?text=+
+[d100]: https://placehold.co/20x20/E6EFF0/E6EFF0?text=.
+[d200]: https://placehold.co/20x20/B2CFD1/B2CFD1?text=.
+[d300]: https://placehold.co/20x20/82AEB0/82AEB0?text=.
+[d400]: https://placehold.co/20x20/507D80/507D80?text=.
+[d500]: https://placehold.co/20x20/3B6F70/3B6F70?text=.
+[d600]: https://placehold.co/20x20/255759/255759?text=.
+[d700]: https://placehold.co/20x20/154245/154245?text=.
+[d800]: https://placehold.co/20x20/092C2E/092C2E?text=.
+[d900]: https://placehold.co/20x20/031819/031819?text=.
 
-[y100]: https://via.placeholder.com/20/FAF8C8/000000?text=+
-[y200]: https://via.placeholder.com/20/FCF8A7/000000?text=+
-[y300]: https://via.placeholder.com/20/FAF478/000000?text=+
-[y400]: https://via.placeholder.com/20/E8E26F/000000?text=+
-[y500]: https://via.placeholder.com/20/D9D355/000000?text=+
-[y600]: https://via.placeholder.com/20/BCC45E/000000?text=+
-[y700]: https://via.placeholder.com/20/B2AE56/000000?text=+
-[y800]: https://via.placeholder.com/20/8C894D/000000?text=+
-[y900]: https://via.placeholder.com/20/666322/000000?text=+
+[y100]: https://placehold.co/20x20/FAF8C8/FAF8C8?text=.
+[y200]: https://placehold.co/20x20/FCF8A7/FCF8A7?text=.
+[y300]: https://placehold.co/20x20/FAF478/FAF478?text=.
+[y400]: https://placehold.co/20x20/E8E26F/E8E26F?text=.
+[y500]: https://placehold.co/20x20/D9D355/D9D355?text=.
+[y600]: https://placehold.co/20x20/BCC45E/BCC45E?text=.
+[y700]: https://placehold.co/20x20/B2AE56/B2AE56?text=.
+[y800]: https://placehold.co/20x20/8C894D/8C894D?text=.
+[y900]: https://placehold.co/20x20/666322/666322?text=.
 
-[o100]: https://via.placeholder.com/20/FFF3D9/000000?text=+
-[o200]: https://via.placeholder.com/20/FFE8B8/000000?text=+
-[o300]: https://via.placeholder.com/20/FFDE99/000000?text=+
-[o400]: https://via.placeholder.com/20/FFD478/000000?text=+
-[o500]: https://via.placeholder.com/20/FFC957/000000?text=+
-[o600]: https://via.placeholder.com/20/D9A941/000000?text=+
-[o700]: https://via.placeholder.com/20/B28930/000000?text=+
-[o800]: https://via.placeholder.com/20/8C6B22/000000?text=+
-[o900]: https://via.placeholder.com/20/664C14/000000?text=+
+[o100]: https://placehold.co/20x20/FFF3D9/FFF3D9?text=.
+[o200]: https://placehold.co/20x20/FFE8B8/FFE8B8?text=.
+[o300]: https://placehold.co/20x20/FFDE99/FFDE99?text=.
+[o400]: https://placehold.co/20x20/FFD478/FFD478?text=.
+[o500]: https://placehold.co/20x20/FFC957/FFC957?text=.
+[o600]: https://placehold.co/20x20/D9A941/D9A941?text=.
+[o700]: https://placehold.co/20x20/B28930/B28930?text=.
+[o800]: https://placehold.co/20x20/8C6B22/8C6B22?text=.
+[o900]: https://placehold.co/20x20/664C14/664C14?text=.
 
-[b100]: https://via.placeholder.com/20/E6EFF7/000000?text=+
-[b200]: https://via.placeholder.com/20/BAE0FF/000000?text=+
-[b300]: https://via.placeholder.com/20/87C8FF/000000?text=+
-[b400]: https://via.placeholder.com/20/54B1FF/000000?text=+
-[b500]: https://via.placeholder.com/20/229AFF/000000?text=+
-[b600]: https://via.placeholder.com/20/147FD9/000000?text=+
-[b700]: https://via.placeholder.com/20/0C67B2/000000?text=+
-[b800]: https://via.placeholder.com/20/004F91/000000?text=+
-[b900]: https://via.placeholder.com/20/003969/000000?text=+
+[b100]: https://placehold.co/20x20/E6EFF7/E6EFF7?text=.
+[b200]: https://placehold.co/20x20/BAE0FF/BAE0FF?text=.
+[b300]: https://placehold.co/20x20/87C8FF/87C8FF?text=.
+[b400]: https://placehold.co/20x20/54B1FF/54B1FF?text=.
+[b500]: https://placehold.co/20x20/229AFF/229AFF?text=.
+[b600]: https://placehold.co/20x20/147FD9/147FD9?text=.
+[b700]: https://placehold.co/20x20/0C67B2/0C67B2?text=.
+[b800]: https://placehold.co/20x20/004F91/004F91?text=.
+[b900]: https://placehold.co/20x20/003969/003969?text=.
 
-[g100]: https://via.placeholder.com/20/E2F6F2/000000?text=+
-[g200]: https://via.placeholder.com/20/C1F5E9/000000?text=+
-[g300]: https://via.placeholder.com/20/A3F7E4/000000?text=+
-[g400]: https://via.placeholder.com/20/82F5DA/000000?text=+
-[g500]: https://via.placeholder.com/20/61F2D1/000000?text=+
-[g600]: https://via.placeholder.com/20/52D1B4/000000?text=+
-[g700]: https://via.placeholder.com/20/42AD94/000000?text=+
-[g800]: https://via.placeholder.com/20/328A75/000000?text=+
-[g900]: https://via.placeholder.com/20/246657/000000?text=+
+[g100]: https://placehold.co/20x20/E2F6F2/E2F6F2?text=.
+[g200]: https://placehold.co/20x20/C1F5E9/C1F5E9?text=.
+[g300]: https://placehold.co/20x20/A3F7E4/A3F7E4?text=.
+[g400]: https://placehold.co/20x20/82F5DA/82F5DA?text=.
+[g500]: https://placehold.co/20x20/61F2D1/61F2D1?text=.
+[g600]: https://placehold.co/20x20/52D1B4/52D1B4?text=.
+[g700]: https://placehold.co/20x20/42AD94/42AD94?text=.
+[g800]: https://placehold.co/20x20/328A75/328A75?text=.
+[g900]: https://placehold.co/20x20/246657/246657?text=.
 
-[a100]: https://via.placeholder.com/20/F7F7F7/000000?text=+
-[a200]: https://via.placeholder.com/20/E9EBEB/000000?text=+
-[a300]: https://via.placeholder.com/20/D5DBDB/000000?text=+
-[a400]: https://via.placeholder.com/20/C4CCCC/000000?text=+
-[a500]: https://via.placeholder.com/20/B3BDBD/000000?text=+
-[a600]: https://via.placeholder.com/20/8D9494/000000?text=+
-[a700]: https://via.placeholder.com/20/666B6B/000000?text=+
-[a800]: https://via.placeholder.com/20/3F4242/000000?text=+
-[a900]: https://via.placeholder.com/20/18191A/000000?text=+
+[a100]: https://placehold.co/20x20/F7F7F7/F7F7F7?text=.
+[a200]: https://placehold.co/20x20/E9EBEB/E9EBEB?text=.
+[a300]: https://placehold.co/20x20/D5DBDB/D5DBDB?text=.
+[a400]: https://placehold.co/20x20/C4CCCC/C4CCCC?text=.
+[a500]: https://placehold.co/20x20/B3BDBD/B3BDBD?text=.
+[a600]: https://placehold.co/20x20/8D9494/8D9494?text=.
+[a700]: https://placehold.co/20x20/666B6B/666B6B?text=.
+[a800]: https://placehold.co/20x20/3F4242/3F4242?text=.
+[a900]: https://placehold.co/20x20/18191A/18191A?text=.
