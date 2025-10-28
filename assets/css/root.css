@@ -73,7 +73,7 @@
   --color-fg-box: var(--color-gray-400);
 
   --font-default: system-ui;
-  --font-heading: system-ui;
+  --font-heading: monospace;
   --font-size: 14px;
   --line-height: 1.75;
 

@@ -1,13 +1,13 @@
 @import url('root.css');
 
 :root {
-  --color-logo-text: var(--color-white);
+  --color-logo-text: var(--color-gray-400);
 
   --color-bg: var(--color-darkgreen-900);
   --color-bg-soft: var(--color-darkgreen-800);
   --color-bg-mute: var(--color-darkgreen-700);
 
-  --color-fg: var(--color-gray-400);
+  --color-fg: var(--color-gray-500);
   --color-fg-soft: var(--color-gray-500);
   --color-fg-mute: var(--color-gray-600);
 
