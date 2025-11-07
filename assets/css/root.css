@@ -75,6 +75,11 @@
   --font-default: system-ui;
   --font-heading: monospace;
   --font-size: 14px;
+  --font-size-xs: 0.75em;
+  --font-size-sm: 0.875em;
+  --font-size-md: 1em;
+  --font-size-lg: 1.25em;
+  --font-size-xl: 1.5em;
   --line-height: 1.75;
 
   --height-logo: 25px;
@@ -181,11 +186,11 @@ pre {
 
 /* TODO utility classes are now obsolete, remove them after migration */
 
-.f--xl { font-size: 1.5em; }
-.f--lg { font-size: 1.25em; }
-.f--md { font-size: 1em; }
-.f--sm { font-size: 0.875em; }
-.f--xs { font-size: 0.75em; }
+.f--xs { font-size: var(--font-size-xs); }
+.f--sm { font-size: var(--font-size-sm); }
+.f--md { font-size: var(--font-size-md); }
+.f--lg { font-size: var(--font-size-lg); }
+.f--xl { font-size: var(--font-size-xl); }
 
 .c--fg_red-n4 { color: var(--color-red-n4); }
 .c--fg_red-n3 { color: var(--color-red-n3); }
