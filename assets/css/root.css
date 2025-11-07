@@ -179,6 +179,8 @@ pre {
   }
 }
 
+/* TODO utility classes are now obsolete, remove them after migration */
+
 .f--xl { font-size: 1.5em; }
 .f--lg { font-size: 1.25em; }
 .f--md { font-size: 1em; }
@@ -406,3 +408,5 @@ pre {
 .s--mt_xl { margin-top: var(--space-xl); }
 .s--mb_xl { margin-bottom: var(--space-xl); }
 .s--mv_xl { margin-top: var(--space-xl); margin-bottom: var(--space-xl); }
+
+/* end of TODO */
