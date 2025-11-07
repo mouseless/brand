@@ -10,13 +10,29 @@
           .setAttribute("href", `../assets/css/${theme}.css`);
       }
     </script>
+    <style>
+      body {
+        margin: var(--space-sm);
+        padding: 0;
+      }
+
+      .block {
+        margin: 0;
+        padding: var(--space-sm) 0;
+      }
+
+      .invert {
+        background-color: var(--color-darkgreen-n4);
+        color: var(--color--gray-p4);
+      }
+    </style>
   </head>
-  <body class="s s--m_sm">
+  <body>
     <header>
       <button id="secondary" onclick="setTheme('secondary');" style="float: right;">secondary</button>
       <button id="primary" onclick="setTheme('primary');" style="float: right;">primary</button>
       <button id="default" onclick="setTheme('default');" style="float: right;">default</button>
-      <div class="s s--pv_sm">
+      <div class="block">
         <img class="mouseless logo" />
         <img class="mouseless logo mono" />
         <br/>
@@ -29,7 +45,7 @@
         <img class="mouseless logo mark"/>
         <img class="mouseless logo mark mono" />
       </div>
-      <div class="s s--pv_sm c c--bg_darkgreen-n4 c--fg_gray-p4">
+      <div class="block invert">
         <img class="mouseless logo invert" />
         <img class="mouseless logo invert mono" />
         <br/>
@@ -62,11 +78,11 @@
       <p><b>Bold text</b></p>
       <p><i>Italic text</i></p>
       <p><a href="https://github.com/mouseless">github/mouseless</a></p>
-      <p class="f f--xs">XS text</p>
-      <p class="f f--sm">SM text</p>
-      <p class="f f--md">MD text</p>
-      <p class="f f--lg">LG text</p>
-      <p class="f f--xl">XL text</p>
+      <p style="font-size: var(--font-xs);">XS text</p>
+      <p style="font-size: var(--font-sm);">SM text</p>
+      <p style="font-size: var(--font-md);">MD text</p>
+      <p style="font-size: var(--font-lg);">LG text</p>
+      <p style="font-size: var(--font-xl);">XL text</p>
       <table>
         <thead>
           <th>Column A</th>
@@ -139,75 +155,75 @@
 &gt; mouseless_</code></pre>
       <h2>Colors</h2>
       <h3>Red</h3>
-      <button class="c c--fg_red-p4 c--bg_red-n4">X</button>
-      <button class="c c--fg_red-p3 c--bg_red-n3">X</button>
-      <button class="c c--fg_red-p2 c--bg_red-n2">X</button>
-      <button class="c c--fg_red-p1 c--bg_red-n1">X</button>
-      <button class="c c--fg_red-0  c--bg_red-0 ">X</button>
-      <button class="c c--fg_red-n1 c--bg_red-p1">X</button>
-      <button class="c c--fg_red-n2 c--bg_red-p2">X</button>
-      <button class="c c--fg_red-n3 c--bg_red-p3">X</button>
-      <button class="c c--fg_red-n4 c--bg_red-p4">X</button>
+      <button style="color: var(--color-red-p4); background-color: var(--color-red-n4);">X</button>
+      <button style="color: var(--color-red-p3); background-color: var(--color-red-n3);">X</button>
+      <button style="color: var(--color-red-p2); background-color: var(--color-red-n2);">X</button>
+      <button style="color: var(--color-red-p1); background-color: var(--color-red-n1);">X</button>
+      <button style="color: var(--color-red-0);  background-color: var(--color-red-0); ">X</button>
+      <button style="color: var(--color-red-n1); background-color: var(--color-red-p1);">X</button>
+      <button style="color: var(--color-red-n2); background-color: var(--color-red-p2);">X</button>
+      <button style="color: var(--color-red-n3); background-color: var(--color-red-p3);">X</button>
+      <button style="color: var(--color-red-n4); background-color: var(--color-red-p4);">X</button>
       <h3>Darkgreen</h3>
-      <button class="c c--fg_darkgreen-p4 c--bg_darkgreen-n4">X</button>
-      <button class="c c--fg_darkgreen-p3 c--bg_darkgreen-n3">X</button>
-      <button class="c c--fg_darkgreen-p2 c--bg_darkgreen-n2">X</button>
-      <button class="c c--fg_darkgreen-p1 c--bg_darkgreen-n1">X</button>
-      <button class="c c--fg_darkgreen-0  c--bg_darkgreen-0 ">X</button>
-      <button class="c c--fg_darkgreen-n1 c--bg_darkgreen-p1">X</button>
-      <button class="c c--fg_darkgreen-n2 c--bg_darkgreen-p2">X</button>
-      <button class="c c--fg_darkgreen-n3 c--bg_darkgreen-p3">X</button>
-      <button class="c c--fg_darkgreen-n4 c--bg_darkgreen-p4">X</button>
+      <button style="color: var(--color-darkgreen-p4); background-color: var(--color-darkgreen-n4);">X</button>
+      <button style="color: var(--color-darkgreen-p3); background-color: var(--color-darkgreen-n3);">X</button>
+      <button style="color: var(--color-darkgreen-p2); background-color: var(--color-darkgreen-n2);">X</button>
+      <button style="color: var(--color-darkgreen-p1); background-color: var(--color-darkgreen-n1);">X</button>
+      <button style="color: var(--color-darkgreen-0);  background-color: var(--color-darkgreen-0); ">X</button>
+      <button style="color: var(--color-darkgreen-n1); background-color: var(--color-darkgreen-p1);">X</button>
+      <button style="color: var(--color-darkgreen-n2); background-color: var(--color-darkgreen-p2);">X</button>
+      <button style="color: var(--color-darkgreen-n3); background-color: var(--color-darkgreen-p3);">X</button>
+      <button style="color: var(--color-darkgreen-n4); background-color: var(--color-darkgreen-p4);">X</button>
       <h3>Yellow</h3>
-      <button class="c c--fg_yellow-p4 c--bg_yellow-n4">X</button>
-      <button class="c c--fg_yellow-p3 c--bg_yellow-n3">X</button>
-      <button class="c c--fg_yellow-p2 c--bg_yellow-n2">X</button>
-      <button class="c c--fg_yellow-p1 c--bg_yellow-n1">X</button>
-      <button class="c c--fg_yellow-0  c--bg_yellow-0 ">X</button>
-      <button class="c c--fg_yellow-n1 c--bg_yellow-p1">X</button>
-      <button class="c c--fg_yellow-n2 c--bg_yellow-p2">X</button>
-      <button class="c c--fg_yellow-n3 c--bg_yellow-p3">X</button>
-      <button class="c c--fg_yellow-n4 c--bg_yellow-p4">X</button>
+      <button style="color: var(--color-yellow-p4); background-color: var(--color-yellow-n4);">X</button>
+      <button style="color: var(--color-yellow-p3); background-color: var(--color-yellow-n3);">X</button>
+      <button style="color: var(--color-yellow-p2); background-color: var(--color-yellow-n2);">X</button>
+      <button style="color: var(--color-yellow-p1); background-color: var(--color-yellow-n1);">X</button>
+      <button style="color: var(--color-yellow-0);  background-color: var(--color-yellow-0); ">X</button>
+      <button style="color: var(--color-yellow-n1); background-color: var(--color-yellow-p1);">X</button>
+      <button style="color: var(--color-yellow-n2); background-color: var(--color-yellow-p2);">X</button>
+      <button style="color: var(--color-yellow-n3); background-color: var(--color-yellow-p3);">X</button>
+      <button style="color: var(--color-yellow-n4); background-color: var(--color-yellow-p4);">X</button>
       <h3>Orange</h3>
-      <button class="c c--fg_orange-p4 c--bg_orange-n4">X</button>
-      <button class="c c--fg_orange-p3 c--bg_orange-n3">X</button>
-      <button class="c c--fg_orange-p2 c--bg_orange-n2">X</button>
-      <button class="c c--fg_orange-p1 c--bg_orange-n1">X</button>
-      <button class="c c--fg_orange-0  c--bg_orange-0 ">X</button>
-      <button class="c c--fg_orange-n1 c--bg_orange-p1">X</button>
-      <button class="c c--fg_orange-n2 c--bg_orange-p2">X</button>
-      <button class="c c--fg_orange-n3 c--bg_orange-p3">X</button>
-      <button class="c c--fg_orange-n4 c--bg_orange-p4">X</button>
+      <button style="color: var(--color-orange-p4); background-color: var(--color-orange-n4);">X</button>
+      <button style="color: var(--color-orange-p3); background-color: var(--color-orange-n3);">X</button>
+      <button style="color: var(--color-orange-p2); background-color: var(--color-orange-n2);">X</button>
+      <button style="color: var(--color-orange-p1); background-color: var(--color-orange-n1);">X</button>
+      <button style="color: var(--color-orange-0);  background-color: var(--color-orange-0); ">X</button>
+      <button style="color: var(--color-orange-n1); background-color: var(--color-orange-p1);">X</button>
+      <button style="color: var(--color-orange-n2); background-color: var(--color-orange-p2);">X</button>
+      <button style="color: var(--color-orange-n3); background-color: var(--color-orange-p3);">X</button>
+      <button style="color: var(--color-orange-n4); background-color: var(--color-orange-p4);">X</button>
       <h3>Blue</h3>
-      <button class="c c--fg_blue-p4 c--bg_blue-n4">X</button>
-      <button class="c c--fg_blue-p3 c--bg_blue-n3">X</button>
-      <button class="c c--fg_blue-p2 c--bg_blue-n2">X</button>
-      <button class="c c--fg_blue-p1 c--bg_blue-n1">X</button>
-      <button class="c c--fg_blue-0  c--bg_blue-0 ">X</button>
-      <button class="c c--fg_blue-n1 c--bg_blue-p1">X</button>
-      <button class="c c--fg_blue-n2 c--bg_blue-p2">X</button>
-      <button class="c c--fg_blue-n3 c--bg_blue-p3">X</button>
-      <button class="c c--fg_blue-n4 c--bg_blue-p4">X</button>
+      <button style="color: var(--color-blue-p4); background-color: var(--color-blue-n4);">X</button>
+      <button style="color: var(--color-blue-p3); background-color: var(--color-blue-n3);">X</button>
+      <button style="color: var(--color-blue-p2); background-color: var(--color-blue-n2);">X</button>
+      <button style="color: var(--color-blue-p1); background-color: var(--color-blue-n1);">X</button>
+      <button style="color: var(--color-blue-0);  background-color: var(--color-blue-0); ">X</button>
+      <button style="color: var(--color-blue-n1); background-color: var(--color-blue-p1);">X</button>
+      <button style="color: var(--color-blue-n2); background-color: var(--color-blue-p2);">X</button>
+      <button style="color: var(--color-blue-n3); background-color: var(--color-blue-p3);">X</button>
+      <button style="color: var(--color-blue-n4); background-color: var(--color-blue-p4);">X</button>
       <h3>Green</h3>
-      <button class="c c--fg_green-p4 c--bg_green-n4">X</button>
-      <button class="c c--fg_green-p3 c--bg_green-n3">X</button>
-      <button class="c c--fg_green-p2 c--bg_green-n2">X</button>
-      <button class="c c--fg_green-p1 c--bg_green-n1">X</button>
-      <button class="c c--fg_green-0  c--bg_green-0 ">X</button>
-      <button class="c c--fg_green-n1 c--bg_green-p1">X</button>
-      <button class="c c--fg_green-n2 c--bg_green-p2">X</button>
-      <button class="c c--fg_green-n3 c--bg_green-p3">X</button>
-      <button class="c c--fg_green-n4 c--bg_green-p4">X</button>
+      <button style="color: var(--color-green-p4); background-color: var(--color-green-n4);">X</button>
+      <button style="color: var(--color-green-p3); background-color: var(--color-green-n3);">X</button>
+      <button style="color: var(--color-green-p2); background-color: var(--color-green-n2);">X</button>
+      <button style="color: var(--color-green-p1); background-color: var(--color-green-n1);">X</button>
+      <button style="color: var(--color-green-0);  background-color: var(--color-green-0); ">X</button>
+      <button style="color: var(--color-green-n1); background-color: var(--color-green-p1);">X</button>
+      <button style="color: var(--color-green-n2); background-color: var(--color-green-p2);">X</button>
+      <button style="color: var(--color-green-n3); background-color: var(--color-green-p3);">X</button>
+      <button style="color: var(--color-green-n4); background-color: var(--color-green-p4);">X</button>
       <h3>Gray</h3>
-      <button class="c c--fg_gray-p4 c--bg_gray-n4">X</button>
-      <button class="c c--fg_gray-p3 c--bg_gray-n3">X</button>
-      <button class="c c--fg_gray-p2 c--bg_gray-n2">X</button>
-      <button class="c c--fg_gray-p1 c--bg_gray-n1">X</button>
-      <button class="c c--fg_gray-0  c--bg_gray-0 ">X</button>
-      <button class="c c--fg_gray-n1 c--bg_gray-p1">X</button>
-      <button class="c c--fg_gray-n2 c--bg_gray-p2">X</button>
-      <button class="c c--fg_gray-n3 c--bg_gray-p3">X</button>
-      <button class="c c--fg_gray-n4 c--bg_gray-p4">X</button>
+      <button style="color: var(--color-gray-p4); background-color: var(--color-gray-n4);">X</button>
+      <button style="color: var(--color-gray-p3); background-color: var(--color-gray-n3);">X</button>
+      <button style="color: var(--color-gray-p2); background-color: var(--color-gray-n2);">X</button>
+      <button style="color: var(--color-gray-p1); background-color: var(--color-gray-n1);">X</button>
+      <button style="color: var(--color-gray-0);  background-color: var(--color-gray-0); ">X</button>
+      <button style="color: var(--color-gray-n1); background-color: var(--color-gray-p1);">X</button>
+      <button style="color: var(--color-gray-n2); background-color: var(--color-gray-p2);">X</button>
+      <button style="color: var(--color-gray-n3); background-color: var(--color-gray-p3);">X</button>
+      <button style="color: var(--color-gray-n4); background-color: var(--color-gray-p4);">X</button>
     </article>
   </body>
 </html>

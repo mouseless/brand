@@ -230,7 +230,36 @@ Primary theme uses ![a100][] `gray-100` for background, ![d900][]
 >
 > Boxes are styled the same as primary theme.
 
-### Inspiration
+## CSS Usage
+
+There are three css files to serve as a base for any website that will use this
+branding.
+
+- __Default__: `https://brand.mouseless.codes/assets/css/default.css`
+- __Primary__: `https://brand.mouseless.codes/assets/css/primary.css`
+- __Secondary__: `https://brand.mouseless.codes/assets/css/secondary.css`
+
+> [!NOTE]
+>
+> Default respects browser theme and uses Primary for dark mode, Secondary for
+> light mode.
+
+### Using with TailwindCSS
+
+To use color, spacing or font variables from a tailwind, make use of variable
+syntax;
+
+```html
+<div
+  class="
+    bg-(--color-darkgreen-900) color(--color-green-500)
+    px-(--space-xs) my-(--space-lg)
+    text-(--font-xl)
+  "
+/>
+```
+
+## Inspiration
 
 Mouseless is founded by [Cihan Deniz](https://github.com/cihandeniz) to create a
 collective where developers can join and perform their craft with passion.
