@@ -259,6 +259,37 @@ syntax;
 />
 ```
 
+utilities can also be applied from CSS using `@apply`;
+
+```css
+div {
+  @apply
+    bg-(--color-darkgreen-900) color(--color-green-500)
+    px-(--space-xs) my-(--space-lg)
+    text-(--font-xl);
+}
+```
+
+For frequently used values, variables can also be mapped to tailwind theme
+tokens using the appropriate prefixes.
+
+```css
+@theme {
+  --spacing-xs: var(--space-xs);
+  --spacing-sm: var(--space-sm);
+
+  --text-xl: var(--font-xl);
+
+  --color-brand: var(--color-bg);
+}
+```
+
+Once mapped, the values become available through standard Tailwind utilities:
+
+```html
+<div class="px-xs my-sm text-xl bg-brand" />
+```
+
 ## Inspiration
 
 Mouseless is founded by [Cihan Deniz](https://github.com/cihandeniz) to create a
