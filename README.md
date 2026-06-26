@@ -259,17 +259,6 @@ syntax;
 />
 ```
 
-utilities can also be applied from CSS using `@apply`;
-
-```css
-div {
-  @apply
-    bg-(--color-darkgreen-900) color(--color-green-500)
-    px-(--space-xs) my-(--space-lg)
-    text-(--font-xl);
-}
-```
-
 For frequently used values, variables can also be mapped to tailwind theme
 tokens using the appropriate prefixes.
 
